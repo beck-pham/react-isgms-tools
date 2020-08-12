@@ -1,0 +1,56 @@
+@import '../sass/variable';
+
+.heading-primary {
+  color: $color-black-main;
+  text-transform: capitalize;
+  margin: 60px;
+  /* fixed the shaking animation issue */
+  backface-visibility: hidden;
+
+  &-main {
+    display: inherit;
+    font-size: 4rem;
+    letter-spacing: 2px;
+
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+
+  &-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    animation: moveInRight 2s ease-in;
+  }
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  //make gradient appears behind texts
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.3);
+  }
+}
+
+.heading-tertinary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

@@ -1,0 +1,61 @@
+// @import '../../../public/sass/grid';
+@import '../../../public/sass/heading';
+@import '../../../public/sass/paragraph';
+@import '../../../public/sass/button';
+
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+.about-container {
+  display: grid;
+  gap: 40rem;
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+  justify-items: center;
+}
+
+.heading {
+  grid-column-start: 1;
+}
+.composition {
+  position: relative;
+  grid-column-end: 3;
+  &-photo {
+    margin-top: 3rem;
+    width: 35rem;
+    box-shadow: 0 2rem 4rem rgba(black, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    //outline-offset: 2rem;
+    &:hover {
+      //outline: 0.5rem solid $color-primary;
+      transform: scale(1.2) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(black, 0.7); // re-adjust box-shadow to match the scale input
+      z-index: 20;
+    }
+  }
+
+  .photo-1 {
+    right: 0;
+    top: -2rem;
+  }
+
+  .photo-2 {
+    left: -10rem;
+    top: 2rem;
+  }
+
+  .photo-3 {
+    left: -25rem;
+    top: 12rem;
+  }
+
+  //when hover on the "cursor photo", the other 2 photos "scale back"
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.95);
+  }
+}

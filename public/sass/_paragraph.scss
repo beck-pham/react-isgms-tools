@@ -1,0 +1,9 @@
+.paragraph {
+  align-content: center;
+  font-size: 1.6rem;
+  line-height: 1.7;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
