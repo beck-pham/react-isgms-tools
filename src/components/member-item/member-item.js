@@ -20,13 +20,19 @@ const MemberItem = ({ imageUrl, name, title }) => (
             className="shape-img"
           />
           <figcaption className="shape-caption">
-            {name.toUpperCase()}
-          </figcaption>
-          <figcaption className="shape-caption">
-            {title.toUpperCase()}
+            {name}
+            <br /> {title}
           </figcaption>
         </figure>
       </div>
+      {/* <div
+        className="background-image"
+        style={{ backgroundImage: `${imageUrl}` }}
+      />
+      <div className="content">
+        <h3 classBane="title">{name.toUpperCase()}</h3>
+        <span className="subtitle">{title.toUpperCase()}</span>
+      </div> */}
     </div>
   </div>
 );

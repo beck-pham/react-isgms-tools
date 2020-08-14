@@ -4,7 +4,7 @@ import './tool-item.styles.scss';
 
 const ToolItems = () => (
   <section className="section-tool">
-    <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+    <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
       <h2 className="heading-secondary">Our Tool Kits</h2>
     </div>
 

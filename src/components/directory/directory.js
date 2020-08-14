@@ -66,11 +66,16 @@ class Directory extends React.Component {
 
   render() {
     return (
-      <div className="section-directory">
-        {this.state.sections.map(({ id, ...otherSectionProps }) => (
-          <MemberItem key={id} {...otherSectionProps} />
-        ))}
-      </div>
+      <section className="section-directory">
+        <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
+          <h2 class="heading-secondary">Our team member</h2>
+        </div>
+        <div className="directory">
+          {this.state.sections.map(({ id, ...otherSectionProps }) => (
+            <MemberItem key={id} {...otherSectionProps} />
+          ))}
+        </div>
+      </section>
     );
   }
 }
