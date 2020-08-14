@@ -24,11 +24,13 @@
 .section-feature {
   padding: 20rem 0;
   background-image: linear-gradient(
-    to right bottom,
-    rgba($color-primary-dark, 0.8),
-    rgba($color-primary-light, 0.8)
-  );
+      to right bottom,
+      rgba(#b3e5fc, 0.8),
+      rgba(#2979ff, 0.8)
+    ),
+    url(../img/feature.jpg);
   background-size: cover;
+  background-position: center;
   margin-top: -13.5rem;
   transform: skewY(-7deg);
   //skew the direct child, not all child under one parent

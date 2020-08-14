@@ -1,0 +1,336 @@
+@import '../../../public/sass/variable';
+@import '../../../public/sass/heading';
+
+.section-tool {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0 15rem 0;
+  margin-top: -13.5rem;
+}
+.card-container {
+  display: grid;
+  column-gap: 30rem;
+  row-gap: 10rem;
+  //grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  // BASIC FUNCTIONALITY
+  -webkit-perspective: 150rem; // make the card flip "toward" the user
+  position: relative;
+  height: 50rem;
+
+  // CARD SIDE
+  &-side {
+    height: 50rem;
+    transition: all 1s ease;
+    position: absolute;
+    width: 100%;
+    -webkit-backface-visibility: hidden; // make the back side of the card hidden when not hover;
+    border-radius: 5px;
+    -webkit-overflow: hidden; // this make the picture edge round, not overflow the parent
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.7);
+
+    &-front {
+      background-color: $color-white;
+    }
+
+    &-back {
+      transform: rotateY(180deg);
+
+      &-1 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-secondary-light, 0.6),
+          rgba($color-secondary-dark, 0.9)
+        );
+      }
+
+      &-2 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-tertiary-light, 0.6),
+          rgba($color-tertiary-dark, 0.9)
+        );
+      }
+
+      &-3 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-fourth-light, 0.6),
+          rgba($color-fourth-dark, 0.9)
+        );
+      }
+
+      &-4 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-secondary-light, 0.6),
+          rgba($color-secondary-dark, 0.9)
+        );
+      }
+
+      &-5 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-tertiary-light, 0.6),
+          rgba($color-tertiary-dark, 0.9)
+        );
+      }
+
+      &-6 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-fourth-light, 0.6),
+          rgba($color-fourth-dark, 0.9)
+        );
+      }
+
+      &-7 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-secondary-light, 0.6),
+          rgba($color-secondary-dark, 0.9)
+        );
+      }
+
+      &-8 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-tertiary-light, 0.6),
+          rgba($color-tertiary-dark, 0.9)
+        );
+      }
+
+      &-9 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-fourth-light, 0.6),
+          rgba($color-fourth-dark, 0.9)
+        );
+      }
+    }
+  }
+
+  &:hover &-side-front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &-side-back {
+    transform: rotateY(0deg);
+  }
+
+  // FRONT SIDE STYLING
+  &-picture {
+    background-size: cover;
+    height: 20rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    &-1 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url(../img/iTicket.jpg);
+    }
+
+    &-2 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../img/cloudvault.jpg);
+    }
+
+    &-3 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-fourth-light,
+          $color-fourth-dark
+        ),
+        url(../img/automation.jpeg);
+    }
+
+    &-4 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url(../img/timeseries.jpg);
+    }
+
+    &-5 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../img/bugzilla.jpg);
+    }
+
+    &-6 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-fourth-light,
+          $color-fourth-dark
+        ),
+        url(../img/warrantytracker.jpg);
+    }
+
+    &-7 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url(../img/systeminfo.jpg);
+    }
+
+    &-8 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../img/inventory.jpg);
+    }
+
+    &-9 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-fourth-light,
+          $color-fourth-dark
+        ),
+        url(../img/troubleshooting.jpg);
+    }
+  }
+
+  &-heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: $color-white;
+    position: absolute;
+    top: 8rem;
+    right: 2rem;
+    width: 65%;
+    margin-right: 1rem;
+  }
+
+  &-heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+    &-1 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.1),
+        rgba($color-secondary-dark, 0.7)
+      );
+    }
+
+    &-2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.1),
+        rgba($color-tertiary-dark, 0.7)
+      );
+    }
+
+    &-3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-fourth-light, 0.1),
+        rgba($color-fourth-dark, 0.7)
+      );
+    }
+
+    &-4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.1),
+        rgba($color-secondary-dark, 0.7)
+      );
+    }
+
+    &-5 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.1),
+        rgba($color-tertiary-dark, 0.7)
+      );
+    }
+
+    &-6 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-fourth-light, 0.1),
+        rgba($color-fourth-dark, 0.7)
+      );
+    }
+
+    &-7 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.1),
+        rgba($color-secondary-dark, 0.7)
+      );
+    }
+
+    &-8 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.1),
+        rgba($color-tertiary-dark, 0.7)
+      );
+    }
+
+    &-9 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-fourth-light, 0.1),
+        rgba($color-fourth-dark, 0.7)
+      );
+    }
+  }
+
+  &-details {
+    ul {
+      list-style: none;
+      //width: 80%;
+      margin: 5rem 0 auto;
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey-light-2;
+        }
+      }
+    }
+  }
+
+  //BACK SIDE STYLING
+  &-cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    text-align: center;
+  }
+
+  &-paragraph {
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+}

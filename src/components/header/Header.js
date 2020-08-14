@@ -1,6 +1,6 @@
 import React from 'react';
-import CustomButton from '../button/Custom-button';
-import NavigationButton from '../navigation/Navigation';
+import CustomButton from '../button/custom-button';
+import NavigationButton from '../navigation/navigation';
 
 import './header.styles.scss';
 

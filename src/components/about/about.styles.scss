@@ -17,11 +17,10 @@
 }
 
 .heading {
-  grid-column-start: 1;
 }
 .composition {
   position: relative;
-  grid-column-end: 2;
+
   &-photo {
     margin-top: 3rem;
     width: 35rem;

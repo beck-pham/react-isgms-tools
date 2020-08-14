@@ -42,12 +42,12 @@ const About = () => (
         />
         <img
           src="img/tech2.jpg"
-          alt="technology_2"
+          alt="src/components/img/technology_2"
           className="composition-photo photo-2"
         />
         <img
           src="img/tech3.jpg"
-          alt="technology_3"
+          alt="src/components/img/technology_3"
           className="composition-photo photo-3"
         />
       </div>
