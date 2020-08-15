@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomButton from '../button/custom-button';
+//import CustomButton from '../button/custom-button';
 import NavigationButton from '../navigation/navigation';
 
 import './header.styles.scss';
@@ -18,7 +18,6 @@ const Header = () => (
           storage as a Service for iCloud Infrastructure
         </span>
       </h1>
-      <CustomButton>TEST</CustomButton>
     </div>
     <NavigationButton />
   </header>

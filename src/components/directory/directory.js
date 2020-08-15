@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MemberItem from '../member-item/member-item';
+import DirectoryItem from '../directory-item/directory-item';
 
 import './directory.styles.scss';
 
@@ -68,12 +68,17 @@ class Directory extends React.Component {
     return (
       <section className="section-directory">
         <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
-          <h2 class="heading-secondary">Our team member</h2>
+          <h2 className="heading-secondary">Our team directory</h2>
         </div>
         <div className="directory">
           {this.state.sections.map(({ id, ...otherSectionProps }) => (
-            <MemberItem key={id} {...otherSectionProps} />
+            <DirectoryItem key={id} {...otherSectionProps} />
           ))}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+          <a href="https://google.com" className="btn-text">
+            Apple Directory &rarr;
+          </a>
         </div>
       </section>
     );

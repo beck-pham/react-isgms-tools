@@ -1,24 +1,18 @@
 import React from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Feature from './components/feature/feature';
-import Directory from './components/directory/directory';
-import ToolItems from './components/tool-item/tool-item';
+import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
-
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <About />
-        <Feature />
-        <ToolItems />
-        <Directory />
-      </div>
-    );
-  }
-}
+import HomePage from './components/pages/homepage/homepage';
+import ToolPage from './components/pages/tool/tool';
+const App = () => {
+  return (
+    <div>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/tool" component={ToolPage} />
+      </Switch>
+    </div>
+  );
+};
 
 export default App;

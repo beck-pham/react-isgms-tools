@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './tool-item.styles.scss';
+import './toolkit.styles.scss';
 
-const ToolItems = () => (
+const ToolKit = () => (
   <section className="section-tool">
     <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
       <h2 className="heading-secondary">Our Tool Kits</h2>
@@ -313,4 +313,4 @@ const ToolItems = () => (
   </section>
 );
 
-export default ToolItems;
+export default ToolKit;

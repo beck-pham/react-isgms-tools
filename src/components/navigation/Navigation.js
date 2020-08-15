@@ -31,7 +31,7 @@ const NavigationButton = () => (
         </li>
         <li className="navigation-item">
           <a href="#section-team" className="nagivation-link">
-            Team Members
+            Team directorys
           </a>
         </li>
         <li className="navigation-item">
