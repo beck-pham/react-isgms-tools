@@ -1,7 +1,7 @@
 @import '../../../public/sass/variable';
 @import '../../../public/sass/heading';
 
-.section-tool {
+.section-toolkit {
   background-color: $color-grey-light-1;
   padding: 25rem 0 15rem 0;
   margin-top: -13.5rem;
@@ -151,7 +151,7 @@
           $color-fourth-light,
           $color-fourth-dark
         ),
-        url(../img/automation.jpeg);
+        url(../img/automation.jpg);
     }
 
     &-4 {
@@ -169,7 +169,7 @@
           $color-tertiary-light,
           $color-tertiary-dark
         ),
-        url(../img/bugzilla.jpg);
+        url(../img/knowledgebase.jpg);
     }
 
     &-6 {

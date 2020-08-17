@@ -25,7 +25,7 @@ const NavigationButton = () => (
           </a>
         </li>
         <li className="navigation-item">
-          <a href="#section-tools" className="nagivation-link">
+          <a href="#section-toolkits" className="nagivation-link">
             Tools
           </a>
         </li>

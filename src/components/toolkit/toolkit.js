@@ -3,7 +3,7 @@ import React from 'react';
 import './toolkit.styles.scss';
 
 const ToolKit = () => (
-  <section className="section-tool">
+  <section className="section-toolkit">
     <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
       <h2 className="heading-secondary">Our Tool Kits</h2>
     </div>
@@ -186,8 +186,8 @@ const ToolKit = () => (
           <div className="card-details">
             <ul>
               <li>Warranty Info</li>
-              <li>Expiration date</li>
-              <li>Licenses</li>
+              <li>Licensing</li>
+              <li>Systems Expiration date</li>
               <li>Miscellanous Info</li>
             </ul>
           </div>
@@ -222,7 +222,6 @@ const ToolKit = () => (
               <li>Availability</li>
               <li>Capacity</li>
               <li>Raw data</li>
-              <li>Nagios</li>
             </ul>
           </div>
         </div>
@@ -254,7 +253,7 @@ const ToolKit = () => (
             <ul>
               <li>FRU info</li>
               <li>Threshold</li>
-              <li>Quantity</li>
+              <li>Parts Quantity</li>
               <li>Par level</li>
             </ul>
           </div>

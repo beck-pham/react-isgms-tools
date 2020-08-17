@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import HomePage from './components/pages/homepage/homepage';
 import ToolPage from './components/pages/tool/tool';
+
 const App = () => {
   return (
     <div>

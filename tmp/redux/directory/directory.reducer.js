@@ -41,12 +41,12 @@ const INITIAL_STATE = {
     {
       title: 'knowledge base',
       description: [
-        'Bugzilla',
+        'knowledgebase',
         'File a bug',
         'query panic strings',
         'system logs'
       ],
-      imageUrl: 'public/img/bugzilla.jpg',
+      imageUrl: 'public/img/knowledgebase.jpg',
       id: 5,
       linkUrl: 'tools/knowledgebase'
     },
