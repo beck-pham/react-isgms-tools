@@ -13,15 +13,24 @@ table {
     }
   }
 
-  th,
+  th {
+    background-color: #29b6f6;
+    color: white;
+  }
+
   td {
     margin: 0;
     padding: 0.5rem;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    position: relative;
 
     :last-child {
       border-right: 0;
     }
+  }
+
+  .pagination {
+    padding: 0.5rem;
   }
 }
