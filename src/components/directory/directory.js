@@ -68,7 +68,7 @@ class Directory extends React.Component {
     return (
       <section className="section-directory">
         <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
-          <h2 className="heading-secondary">Our team directory</h2>
+          <h2 className="heading-secondary">Our team</h2>
         </div>
         <div className="directory">
           {this.state.sections.map(({ id, ...otherSectionProps }) => (

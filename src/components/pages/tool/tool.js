@@ -1,6 +1,7 @@
 import React from 'react';
 
-import ToolItem from '../../tool-item/tool-item';
+import MenuItem from '../../menu-item/menu-item';
+import Footer from '../../footer/footer';
 import TOOL_DATA from './tool.data';
 
 import './tool.styles.scss';
@@ -16,10 +17,27 @@ class ToolPage extends React.Component {
 
   render() {
     return (
-      <div className="tool-menu">
-        {this.state.tools.map(({ id, ...otherToolProps }) => (
-          <ToolItem key={id} {...otherToolProps} />
-        ))}
+      <div>
+        <h3 style={{ textAlign: 'center' }}>
+          <span
+            className="heading-secondary"
+            style={{ textTransform: 'capitalize', paddingBottom: '2rem' }}
+          >
+            Infrastructure Services Group Mail Storage Tools
+          </span>
+          <span
+            className="heading-primary-sub"
+            style={{ color: '#757575', paddingBottom: '2rem' }}
+          >
+            Browses to Discover Our ToolKits
+          </span>
+        </h3>
+        <div className="tool-menu">
+          {this.state.tools.map(({ id, ...otherProps }) => (
+            <MenuItem key={id} {...otherProps} />
+          ))}
+        </div>
+        <Footer />
       </div>
     );
   }

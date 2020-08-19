@@ -1,11 +1,11 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom'; // withRouter enables to use props such as location,match, and history without using "props-drilling" approach.
 
-import './tool-item.styles.scss';
+import './menu-item.styles.scss';
 
-const ToolItem = ({ title, imageUrl, history, linkUrl, match }) => (
+const MenuItem = ({ title, imageUrl, history, linkUrl, match }) => (
   <div
-    className="tool-item"
+    className="menu-item"
     onClick={() => history.push(`${match.url}${linkUrl}`)}
   >
     <div
@@ -13,10 +13,10 @@ const ToolItem = ({ title, imageUrl, history, linkUrl, match }) => (
       style={{ backgroundImage: `url(${imageUrl})` }}
     />
     <div className="content">
-      <h1 className="title">{title.toUpperCase()}</h1>
+      <h1 className="title">{title}</h1>
       <span className="subtitle">Sign In</span>
     </div>
   </div>
 );
 
-export default withRouter(ToolItem);
+export default withRouter(MenuItem);

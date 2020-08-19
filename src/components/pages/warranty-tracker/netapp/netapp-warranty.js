@@ -1,30 +1,30 @@
 import React from 'react';
 import { useTable, useSortBy, useFilters, usePagination } from 'react-table';
-import { columns, data } from './dataSource';
-import { CustomInput } from './CustomInput';
+import { columns, data } from './netapp-data';
+import { CustomInput } from '../CustomInput';
 
-import './react-table.styles.scss';
-
-window.Date.prototype.isValid = function() {
-  // An invalid date object returns NaN for getTime() and NaN is the only
-  // object not strictly equal to itself.
-  // eslint-disable-next-line
-  return this.getTime() === this.getTime();
-};
-
-const ColumnFilter = ({ column: { filterValue, setFilter, filter } }) => {
-  return (
-    <CustomInput
-      value={filterValue || ''}
-      onChange={e => {
-        setFilter(e.target.value || undefined); // Set undefined to remove the filter entirely
-      }}
-      placeholder={`Search ${filter ? filter : ''}...`}
-    />
-  );
-};
+import './netapp-warranty.styles.scss';
 
 const ReactTable = () => {
+  window.Date.prototype.isValid = function() {
+    // An invalid date object returns NaN for getTime() and NaN is the only
+    // object not strictly equal to itself.
+    // eslint-disable-next-line
+    return this.getTime() === this.getTime();
+  };
+
+  const ColumnFilter = ({ column: { filterValue, setFilter, filter } }) => {
+    return (
+      <CustomInput
+        value={filterValue || ''}
+        onChange={e => {
+          setFilter(e.target.value || undefined); // Set undefined to remove the filter entirely
+        }}
+        placeholder={`Search ${filter ? filter : ''}...`}
+      />
+    );
+  };
+
   // functions to run when a column is filtered depending on the type
   const filterTypes = {
     year: (rows, id, filterValue) => {
@@ -85,6 +85,17 @@ const ReactTable = () => {
   );
   return (
     <>
+      <a href="/">
+        <img
+          src={require('../../../img/netapp.jpg')}
+          alt="netapp_logo"
+          style={{
+            padding: '5px',
+            width: '15rem',
+            marginBottom: '5rem'
+          }}
+        />
+      </a>
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map(headerGroup => (
