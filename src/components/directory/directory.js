@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DirectoryItem from '../directory-item/directory-item';
+import DirectoryItem from '../directory-item/Directory-item';
 
 import './directory.styles.scss';
 

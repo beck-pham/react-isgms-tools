@@ -34,7 +34,7 @@ export const columns = [
   }
 ];
 
-export default data = [
+export const data = [
   {
     "Group": "Game_Center",
     "Host Name": "nk11p00td-isilb01-1",
@@ -402,7 +402,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082070",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -412,7 +412,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082063",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -422,7 +422,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082064",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -432,7 +432,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082069",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -442,7 +442,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082170",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -452,7 +452,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082169",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -462,7 +462,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082072",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -472,7 +472,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082073",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -482,7 +482,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082074",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -492,7 +492,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082075",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -502,7 +502,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082055",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -512,7 +512,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082058",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -522,7 +522,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082054",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -532,7 +532,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082168",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -542,7 +542,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082172",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -552,7 +552,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082175",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -562,7 +562,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082171",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -572,7 +572,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082173",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -582,7 +582,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082174",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -592,7 +592,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "A082061",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -602,7 +602,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636878",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -612,7 +612,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636866",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -622,7 +622,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636861",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -632,7 +632,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636843",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -642,7 +642,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636835",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -652,7 +652,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636876",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -662,7 +662,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636865",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -672,7 +672,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636860",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -682,7 +682,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636836",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -692,7 +692,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636842",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -702,7 +702,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636837",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -712,7 +712,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636838",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -722,7 +722,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636839",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -732,7 +732,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636840",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -742,7 +742,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636841",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -752,7 +752,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636830",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -762,7 +762,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636831",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -772,7 +772,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636832",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -782,7 +782,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636833",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -792,7 +792,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636834",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -802,7 +802,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402685",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -812,7 +812,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402686",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -822,7 +822,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402687",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -832,7 +832,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402688",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -842,7 +842,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402689",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -852,7 +852,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402690",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -862,7 +862,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402696",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -872,7 +872,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402691",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -882,7 +882,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402697",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -892,7 +892,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402698",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -902,7 +902,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402692",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -912,7 +912,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402693",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -922,7 +922,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402694",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -932,7 +932,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402695",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -942,7 +942,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402673",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -952,7 +952,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402679",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -962,7 +962,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402680",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -972,7 +972,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402674",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -982,7 +982,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402675",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -992,7 +992,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A402681",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-31"
   },
   {
@@ -1002,7 +1002,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1528891",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-12-10"
   },
   {
@@ -1012,7 +1012,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1528890",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-12-10"
   },
   {
@@ -1022,7 +1022,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1528889",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-12-10"
   },
   {
@@ -1032,7 +1032,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1528888",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-12-10"
   },
   {
@@ -1042,7 +1042,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1554564",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-10-24"
   },
   {
@@ -1052,7 +1052,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1554565",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-10-24"
   },
   {
@@ -1062,7 +1062,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1554566",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-10-24"
   },
   {
@@ -1072,7 +1072,7 @@ export default data = [
     "System Model": "Isilon H600 Node",
     "Asset Tag": "A1554567",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-10-24"
   },
   {
@@ -1082,7 +1082,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636853",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1092,7 +1092,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636854",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1102,7 +1102,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636862",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1112,7 +1112,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636863",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1122,7 +1122,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636864",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1132,7 +1132,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636855",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1142,7 +1142,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636856",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1152,7 +1152,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636857",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1162,7 +1162,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636858",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1172,7 +1172,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636859",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1182,7 +1182,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636868",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1192,7 +1192,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636872",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1202,7 +1202,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636873",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1212,7 +1212,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636874",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1222,7 +1222,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636875",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1232,7 +1232,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636867",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1242,7 +1242,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636869",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1252,7 +1252,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1762463",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1262,7 +1262,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636871",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-02-11"
   },
   {
@@ -1272,7 +1272,7 @@ export default data = [
     "System Model": "Isilon S210",
     "Asset Tag": "A1636877",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2021-12-31"
   },
   {
@@ -1282,7 +1282,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956732",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1292,7 +1292,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956731",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1302,7 +1302,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956730",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1312,7 +1312,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956729",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1322,7 +1322,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956728",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1332,7 +1332,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956727",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1342,7 +1342,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956726",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1352,7 +1352,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956725",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1362,7 +1362,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956751",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1372,7 +1372,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956750",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1382,7 +1382,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956749",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1392,7 +1392,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956748",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1402,7 +1402,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956747",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1412,7 +1412,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956746",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -1422,7 +1422,7 @@ export default data = [
     "System Model": "S210",
     "Asset Tag": "A956745",
     "Warranty": "YES",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2022-01-01"
   },
   {
@@ -2172,7 +2172,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031401",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2182,7 +2182,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031414",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2192,7 +2192,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031427",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2202,7 +2202,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031393",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2212,7 +2212,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031444",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2222,7 +2222,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031392",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2232,7 +2232,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031405",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2242,7 +2242,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031418",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2252,7 +2252,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031431",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2262,7 +2262,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031445",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2272,7 +2272,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031451",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2282,7 +2282,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031748",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2292,7 +2292,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031761",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2302,7 +2302,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031440",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2312,7 +2312,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031453",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2322,7 +2322,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031432",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2332,7 +2332,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031419",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {
@@ -2342,7 +2342,7 @@ export default data = [
     "System Model": "S200",
     "Asset Tag": "ISG031406",
     "Warranty": "NO",
-    "Type Support": "VENDOR_SUPPORT_24X7X4HR",
+    "Type Support": "VENDOR_SUPPORT",
     "Warranty Expiry Date": "2020-06-30"
   },
   {

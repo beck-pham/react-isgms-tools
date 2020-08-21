@@ -1,15 +1,17 @@
 import React from 'react';
 
 import ReactTable from '../../../react-table/React-table';
-import { columns, data } from './netapp-data';
-import './netapp-warranty.styles.scss';
 
-const NetappWarranty = () => (
+import { columns, data } from './avere-data';
+
+//import './avere-warranty.styles.scss';
+
+const AvereWarranty = () => (
   <div>
     <a href="/">
       <img
-        src={require('../../../img/netapp.jpg')}
-        alt="netapp_logo"
+        src={require('../../../img/avere.jpg')}
+        alt="avere_logo"
         style={{
           padding: '5px',
           width: '15rem',
@@ -17,10 +19,10 @@ const NetappWarranty = () => (
         }}
       />
     </a>
-    <div className="netapp-warranty">
+    <div className="avere-table">
       <ReactTable data={data} columns={columns} />
     </div>
   </div>
 );
 
-export default NetappWarranty;
+export default AvereWarranty;

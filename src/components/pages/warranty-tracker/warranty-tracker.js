@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuItem from '../../menu-item/menu-item';
+import MenuItem from '../../menu-item/Menu-item';
 
 import './warranty-tracker.styles.scss';
 

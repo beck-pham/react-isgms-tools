@@ -1,7 +1,7 @@
 @import '../../../public/sass/variable';
 
 .footer {
-  background-color: $color-grey-dark-3;
+  background-color: $color-grey-dark-1;
   color: $color-grey-light-1;
   padding: 4rem 0;
 }
@@ -12,7 +12,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
   &-heading {
-    text-align: left;
     text-transform: uppercase;
     color: $color-grey-light-1;
     margin: auto 3rem;
@@ -21,11 +20,11 @@
   }
   &-logo-box {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-top: -3rem;
   }
 
   &-logo {
-    width: 15rem;
+    width: 10rem;
     height: auto;
   }
 
@@ -48,7 +47,7 @@
     &:link,
     &:visited {
       color: $color-grey-light-1;
-      background-color: $color-grey-dark-3;
+      background-color: $color-grey-dark-1;
       text-decoration: none;
       text-transform: uppercase;
       display: inline-block;

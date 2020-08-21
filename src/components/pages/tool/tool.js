@@ -1,7 +1,7 @@
 import React from 'react';
 
-import MenuItem from '../../menu-item/menu-item';
-import Footer from '../../footer/footer';
+import MenuItem from '../../menu-item/Menu-item';
+import Footer from '../../footer/Footer';
 import TOOL_DATA from './tool.data';
 
 import './tool.styles.scss';

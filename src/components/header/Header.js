@@ -1,6 +1,6 @@
 import React from 'react';
 //import CustomButton from '../button/custom-button';
-import NavigationButton from '../navigation/navigation';
+//import NavigationButton from '../navigation/Navigation';
 
 import './header.styles.scss';
 
@@ -19,7 +19,6 @@ const Header = () => (
         </span>
       </h1>
     </div>
-    <NavigationButton />
   </header>
 );
 

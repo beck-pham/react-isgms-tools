@@ -1,0 +1,238 @@
+@import '../../../../public/sass/variable';
+
+.knowledge-base {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: white;
+  border-bottom: 1px solid $color-grey-light-2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/****** SEARCH ******/
+.search {
+  // //background-color: orangered;
+  // flex: 0 0 40%;
+
+  // // make every elements inside search a nested Flexbox
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+
+  &-input {
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: inherit;
+    background-color: $color-grey-light-1;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    width: 15%;
+    transition: all 0.2s;
+    margin-right: -3.5rem;
+
+    &:focus {
+      outline: none;
+      width: 25%;
+      background-color: $color-grey-light-1;
+    }
+
+    &::-webkit-input-placeholder {
+      font-weight: 100;
+      color: $color-grey-light-4;
+    }
+  }
+
+  &-input:focus + &-button {
+    background-color: $color-grey-light-1;
+  }
+
+  &-button {
+    border: none;
+    background-color: $color-grey-light-1;
+    border-radius: 100%;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+}
+
+.nav {
+  display: flex;
+
+  &-li {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+    text-decoration: none;
+  }
+
+  &-link:link,
+  &-link:visited {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem 3rem;
+  }
+}
+
+.kb-heading {
+  text-align: center;
+  padding-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 30vh;
+  background-image: url(../../img/kb-background.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &-main {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    color: black;
+  }
+
+  &-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+  }
+}
+
+.kb-card {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  padding-top: 7rem;
+}
+
+.kb-card-heading {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.kb-card-paragraph {
+  margin-bottom: 5rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+ion-icon {
+  color: rgba(22, 22, 22, 0.9);
+  padding-bottom: 1rem;
+}
+
+.btn {
+  /* Make both unvisited and visited remains same color*/
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: $default-font-size;
+    color: white;
+    font-weight: 600;
+    //Change for the <button> element
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &--white {
+    background-color: $color-white;
+    color: $color-grey-dark-1;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
+  &::after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+
+  &--animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $color-primary;
+    display: inline-block; //using this because we want to use the BOX MODEL properties
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    padding: 3px;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+    transform: translateY(0);
+  }
+}

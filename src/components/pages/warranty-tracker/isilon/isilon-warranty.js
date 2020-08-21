@@ -1,11 +1,28 @@
 import React from 'react';
 
-import ReactTable from '../netapp/netapp-warranty';
+import ReactTable from '../../../react-table/React-table';
+
+import { columns, data } from './isilon-data';
 
 import './isilon-warranty.styles.scss';
 
-export const IsilonWarranty = () => (
-  <div className="isilon-table">
-    <ReactTable />
+const IsilonWarranty = () => (
+  <div>
+    <a href="/">
+      <img
+        src={require('../../../img/isilon.jpg')}
+        alt="isilon_logo"
+        style={{
+          padding: '5px',
+          width: '15rem',
+          marginBottom: '5rem'
+        }}
+      />
+    </a>
+    <div className="isilon-table">
+      <ReactTable data={data} columns={columns} />
+    </div>
   </div>
 );
+
+export default IsilonWarranty;
