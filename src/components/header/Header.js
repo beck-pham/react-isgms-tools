@@ -1,25 +1,36 @@
 import React from 'react';
-//import CustomButton from '../button/custom-button';
-//import NavigationButton from '../navigation/Navigation';
+import { NavLink } from 'react-router-dom';
 
 import './header.styles.scss';
 
 const Header = () => (
-  <header className="header">
-    <div className="header__logo-box">
-      <img src="/img/logo-white.png" alt="Logo" className="header__logo" />
-    </div>
-    <div className="header__text-box">
-      <h1 className="heading-primary">
-        <span className="heading-primary-main">
-          Infrastructure Services Group Storage
-        </span>
-        <span className="heading-primary-sub">
-          storage as a Service for iCloud Infrastructure
-        </span>
-      </h1>
-    </div>
-  </header>
+  <div>
+    <header className="header">
+      <ion-icon name="reader-outline" size="large"></ion-icon>
+      <nav className="header-nav">
+        <li className="header-nav-li">
+          <NavLink exact to="/" className="header-nav-link">
+            Home
+          </NavLink>
+        </li>
+        <li className="header-nav-li">
+          <NavLink to="/about" className="header-nav-link">
+            File a Bug
+          </NavLink>
+        </li>
+        <li className="header-nav-li">
+          <NavLink to="/teachers" className="header-nav-link">
+            Browse
+          </NavLink>
+        </li>
+        <li className="header-nav-li">
+          <NavLink to="/courses" className="header-nav-link">
+            Search
+          </NavLink>
+        </li>
+      </nav>
+    </header>
+  </div>
 );
 
 export default Header;

@@ -1,0 +1,72 @@
+@import '../../../public/sass/variable';
+
+.main-title {
+  text-align: center;
+  padding-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 30vh;
+  background-image: url(../img/kb-background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding-top: 2rem;
+}
+
+/****** SEARCH ******/
+.search {
+  &-input {
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: inherit;
+    background-color: $color-grey-light-1;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    width: 15%;
+    transition: all 0.2s;
+    margin-right: -3.5rem;
+
+    &:focus {
+      outline: none;
+      width: 25%;
+      background-color: $color-grey-light-1;
+    }
+
+    &::-webkit-input-placeholder {
+      font-weight: 100;
+      color: $color-grey-light-4;
+    }
+  }
+
+  &-input:focus + &-button {
+    background-color: $color-grey-light-1;
+  }
+
+  &-button {
+    border: none;
+    background-color: $color-grey-light-1;
+    border-radius: 100%;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+}

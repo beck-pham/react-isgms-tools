@@ -1,5 +1,8 @@
 import React from 'react';
 import MenuItem from '../../menu-item/Menu-item';
+import Header from '../../header/Header';
+import Title from '../../title/Title';
+import Footer from '../../footer/Footer';
 
 import './warranty-tracker.styles.scss';
 
@@ -45,11 +48,21 @@ class WarrantyTrackerPage extends React.Component {
 
   render() {
     return (
-      <div className="warranty-tracker-menu">
-        {this.state.vendors.map(({ id, ...otherProps }) => (
-          <MenuItem key={id} {...otherProps} />
-        ))}
-        ;
+      <div>
+        <Header />
+        <Title
+          title="Warranty Tracker"
+          subtitle="Database for system warranty information"
+        />
+
+        <div className="warranty-tracker-menu">
+          {this.state.vendors.map(({ id, ...otherProps }) => (
+            <MenuItem key={id} {...otherProps} />
+          ))}
+          ;
+        </div>
+
+        <Footer />
       </div>
     );
   }
