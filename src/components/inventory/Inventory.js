@@ -1,9 +1,9 @@
 import React from 'react';
-import MenuItem from '../../menu-item/Menu-item';
-import Header from '../../header/Header';
-import Title from '../../title/Title';
-import Footer from '../../footer/Footer';
-import MENU_ITEM_DATA from '../../menu-item/menu-item.data';
+import MenuItem from '../menu-item/Menu-item';
+import Header from '../header/Header';
+import Title from '../title/Title';
+import Footer from '../footer/Footer';
+import MENU_ITEM_DATA from '../menu-item/menu-item.data';
 import './inventory.styles.scss';
 
 class Inventory extends React.Component {

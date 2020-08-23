@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
-import HomePage from '../src/components/pages/homepage/Homepage';
+import HomePage from './components/pages/homepage/Homepage';
 import ToolPage from './components/pages/tool/Tool';
 import WarrantyTrackerPage from './components/pages/warranty-tracker/Warranty-tracker';
 import NetappWarranty from './components/pages/warranty-tracker/netapp/Netapp-warranty';
@@ -12,7 +12,7 @@ import MaprWarranty from './components/pages/warranty-tracker/mapr/Mapr-warranty
 import SilverPeakWarranty from './components/pages/warranty-tracker/silverpeak/Silverpeak-warranty';
 import KnowledgeBase from './components/pages/knowledge-base/Knowledge-base';
 //import TimeSeries from './components/pages/timeseries/Timeseries';
-import Inventory from './components/pages/inventory/Inventory';
+import Inventory from './components/inventory/Inventory';
 
 const App = () => {
   return (
