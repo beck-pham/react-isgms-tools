@@ -5,12 +5,17 @@ import './menu-item.styles.scss';
 
 const MenuItem = ({ title, imageUrl, history, linkUrl, match }) => (
   <div
+    // {/*size is a class for style css that is dynamic taken from Directory comp> */}
     className="menu-item"
     onClick={() => history.push(`${match.url}${linkUrl}`)}
   >
     <div
       className="background-image"
-      style={{ backgroundImage: `url(${imageUrl})` }}
+      style={{
+        backgroundImage: `url(${imageUrl})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
     />
     <div className="content">
       <h1 className="title">{title}</h1>

@@ -3,7 +3,7 @@ import MenuItem from '../../menu-item/Menu-item';
 import Header from '../../header/Header';
 import Title from '../../title/Title';
 import Footer from '../../footer/Footer';
-
+import MENU_ITEM_DATA from '../../menu-item/menu-item.data';
 import './warranty-tracker.styles.scss';
 
 class WarrantyTrackerPage extends React.Component {
@@ -11,49 +11,20 @@ class WarrantyTrackerPage extends React.Component {
     super(props);
 
     this.state = {
-      vendors: [
-        {
-          id: 1,
-          name: 'NetApp',
-          imageUrl: require('../../img/netapp.jpg'),
-          linkUrl: '/netapp'
-        },
-        {
-          id: 2,
-          name: 'Isilon',
-          imageUrl: require('../../img/isilon.jpg'),
-          linkUrl: '/isilon'
-        },
-        {
-          id: 3,
-          name: 'Avere',
-          imageUrl: require('../../img/avere.jpg'),
-          linkUrl: '/avere'
-        },
-        {
-          id: 4,
-          name: 'SilverPeak',
-          imageUrl: require('../../img/silverpeak.jpg'),
-          linkUrl: '/silverpeak'
-        },
-        {
-          id: 5,
-          name: 'Mapr',
-          imageUrl: require('../../img/mapr.jpg'),
-          linkUrl: '/mapr'
-        }
-      ]
+      vendors: MENU_ITEM_DATA
     };
   }
 
   render() {
     return (
-      <div>
+      <div style={{ paddingBottom: '2rem' }}>
         <Header />
-        <Title
-          title="Warranty Tracker"
-          subtitle="Database for system warranty information"
-        />
+        <div className="warranty-bg">
+          <Title
+            title="Warranty Tracker"
+            subtitle="Database for system warranty information"
+          />
+        </div>
 
         <div className="warranty-tracker-menu">
           {this.state.vendors.map(({ id, ...otherProps }) => (

@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+.kb-bg {
+  background-image: url(../../img/knowledgebase-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 1rem;
+}
 .kb-card {
   display: flex;
   justify-content: center;

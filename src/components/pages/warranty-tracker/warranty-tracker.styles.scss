@@ -3,31 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 90vh;
+  height: 70vh;
+  padding-top: 7rem;
 }
 
-.main-title {
-  text-align: center;
-  padding-top: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 30vh;
-  background-image: url(../../img/kb-background.jpg);
-  background-size: cover;
+.warranty-bg {
+  background-image: url(../../img/warranty-bg.jpg);
   background-position: center;
-}
-
-.title {
-  font-size: 4rem;
-  letter-spacing: 2px;
-  color: black;
-}
-
-.subtitle {
-  display: block;
-  font-size: 20px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  padding-top: 2rem;
+  background-size: cover;
 }

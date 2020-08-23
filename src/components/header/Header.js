@@ -14,18 +14,18 @@ const Header = () => (
           </NavLink>
         </li>
         <li className="header-nav-li">
-          <NavLink to="/about" className="header-nav-link">
-            File a Bug
+          <NavLink to="/tool" className="header-nav-link">
+            Tools
           </NavLink>
         </li>
         <li className="header-nav-li">
           <NavLink to="/teachers" className="header-nav-link">
-            Browse
+            Sign In
           </NavLink>
         </li>
         <li className="header-nav-li">
           <NavLink to="/courses" className="header-nav-link">
-            Search
+            Connect With Us
           </NavLink>
         </li>
       </nav>

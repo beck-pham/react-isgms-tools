@@ -11,6 +11,8 @@ import AvereWarranty from './components/pages/warranty-tracker/avere/Avere-warra
 import MaprWarranty from './components/pages/warranty-tracker/mapr/Mapr-warranty';
 import SilverPeakWarranty from './components/pages/warranty-tracker/silverpeak/Silverpeak-warranty';
 import KnowledgeBase from './components/pages/knowledge-base/Knowledge-base';
+//import TimeSeries from './components/pages/timeseries/Timeseries';
+import Inventory from './components/pages/inventory/Inventory';
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/tool" component={ToolPage} />
         <Route path="/tool/knowledgebase" component={KnowledgeBase} />
+        {/* <Route path="/tool/timeseries" component={TimeSeries} /> */}
+        <Route path="/tool/inventory" component={Inventory} />
         <Route
           exact
           path="/tool/warrantytracker"

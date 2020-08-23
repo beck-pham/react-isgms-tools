@@ -29,7 +29,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ion-icon name="logo-slack"></ion-icon>
+              <ion-icon name="logo-slack" color="white" size="small"></ion-icon>
             </a>
           </li>
           <li className="footer-item">
@@ -39,12 +39,16 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ion-icon name="logo-ionic"></ion-icon>
+              <ion-icon name="logo-ionic" color="white" size="small"></ion-icon>
             </a>
           </li>
           <li className="footer-item">
             <a href="mailto:beck_pham@apple.com" className="footer-link">
-              <ion-icon name="mail-outline"></ion-icon>
+              <ion-icon
+                name="mail-outline"
+                color="white"
+                size="small"
+              ></ion-icon>
             </a>
           </li>
           <li className="footer-item">
@@ -54,7 +58,11 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ion-icon name="chatbubbles-outline"></ion-icon>
+              <ion-icon
+                name="chatbubbles-outline"
+                color="white"
+                size="small"
+              ></ion-icon>
             </a>
           </li>
         </ul>

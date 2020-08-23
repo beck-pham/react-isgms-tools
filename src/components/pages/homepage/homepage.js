@@ -4,7 +4,7 @@ import Introduction from '../../introduction/Introduction';
 import About from '../../about/About';
 import Feature from '../../feature/Feature';
 import Directory from '../../directory/Directory';
-import ToolKit from '../../toolkit/Toolkit';
+import ToolKit from '../../toolkit/ Toolkit';
 import Footer from '../../footer/Footer';
 
 const HomePage = () => (

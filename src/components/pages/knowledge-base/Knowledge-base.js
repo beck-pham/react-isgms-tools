@@ -10,10 +10,12 @@ import './knowledge-base.styles.scss';
 const KnowledgeBase = () => (
   <div>
     <Header />
-    <Title
-      title="Knowledge Base"
-      subtitle="Search our troubleshooting topic or browse by product caterogy"
-    />
+    <div className="kb-bg">
+      <Title
+        title="Knowledge Base"
+        subtitle="Search our troubleshooting topic or browse by product caterogy"
+      />
+    </div>
 
     <div className="kb-card">
       <div

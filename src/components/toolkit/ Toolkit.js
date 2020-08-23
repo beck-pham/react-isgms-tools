@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './toolkit.styles.scss';
+import CustomButton from '../button/Custom-button';
 
 const ToolKit = () => (
   <section className="section-toolkit">
@@ -307,6 +308,9 @@ const ToolKit = () => (
             </a>
           </div>
         </div>
+      </div>
+      <div className="toolkit-button">
+        <CustomButton title="Discover Our Tools" />
       </div>
     </div>
   </section>
