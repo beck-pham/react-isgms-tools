@@ -9,7 +9,7 @@ class OuterLabels {
   configure(override) {
     this.config = {
       offset: 3,
-      padding: 2,
+      padding: 3,
       fontNormalColor: Chart.defaults.global.defaultFontColor,
       fontNormalSize: Chart.defaults.global.defaultFontSize,
       fontNormalFamily: Chart.defaults.global.defaultFontFamily,
@@ -404,7 +404,7 @@ Chart.pluginService.register({
 
 Chart.NewLegend = Chart.Legend.extend({
   afterFit: function() {
-    this.height = this.height + 20;
+    this.height = this.height + 25;
   }
 });
 

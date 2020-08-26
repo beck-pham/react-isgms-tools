@@ -1,7 +1,6 @@
 import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import 'chartjs-plugin-datalabels';
-import Chart from 'chart.js';
 
 class PieChartByModel extends React.Component {
   constructor(props) {
@@ -65,9 +64,8 @@ class PieChartByModel extends React.Component {
               padding: 20
             },
             legend: {
-              hidden: true,
               display: true,
-              position: 'top',
+              position: 'bottom',
               labels: {
                 boxWidth: 20,
                 fontColor: '#111',

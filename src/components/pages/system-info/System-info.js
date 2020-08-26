@@ -3,12 +3,14 @@ import React from 'react';
 import Title from '../../title/Title';
 import Header from '../../header/Header';
 import Footer from '../../footer/Footer';
-import ReactTable from '../../react-table/React-table';
-import PieChartByDC from '../../pie-chart/PieChartByDC';
-import PieChartByBU from '../../pie-chart/PieChartByBU';
-import PieChartByModel from '../../pie-chart/PieChartByModel';
+// import ReactTable from '../../react-table/React-table';
+// import PieChartByDC from '../../pie-chart/PieChartByDC';
+// import PieChartByBU from '../../pie-chart/PieChartByBU';
+// import PieChartByModel from '../../pie-chart/PieChartByModel';
+import Dashboard from '../../dashboard/Dashboard';
 
-import { columns, data } from './system-info.data';
+//import { columns, data } from './system-info.data';
+
 import './system-info.styles.scss';
 
 const SystemInfo = () => (
@@ -20,8 +22,8 @@ const SystemInfo = () => (
         subtitle="Information for Infrastructure Storage System Team"
       />
     </div>
-
-    <div className="pie-chart">
+    <Dashboard />
+    {/* <div className="pie-chart">
       <PieChartByDC />
       <PieChartByBU />
       <PieChartByModel />
@@ -29,7 +31,7 @@ const SystemInfo = () => (
 
     <div className="table">
       <ReactTable data={data} columns={columns} />
-    </div>
+    </div> */}
 
     <Footer />
   </div>
