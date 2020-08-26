@@ -5,6 +5,7 @@ import './App.css';
 import HomePage from './components/pages/homepage/Homepage';
 import ToolPage from './components/pages/tool/Tool';
 import KnowledgeBase from './components/pages/knowledge-base/Knowledge-base';
+import SystemInfo from './components/pages/system-info/System-info';
 
 /**** WARRANTY PAGE ****/
 import WarrantyTrackerPage from './components/pages/warranty-tracker/Warranty-tracker';
@@ -27,6 +28,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/tool" component={ToolPage} />
+        <Route path="/tool/systeminfo" component={SystemInfo} />
         <Route path="/tool/knowledgebase" component={KnowledgeBase} />
         {/* <Route path="/tool/timeseries" component={TimeSeries} /> */}
         <Route exact path="/tool/inventory" component={Inventory} />
