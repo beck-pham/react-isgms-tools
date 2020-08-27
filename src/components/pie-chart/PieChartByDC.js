@@ -56,7 +56,7 @@ class PieChartByDC extends React.Component {
             },
             animation: {
               easing: 'easeInExpo',
-              duration: 3000
+              duration: 2750
             },
             plugins: {
               datalabels: false
