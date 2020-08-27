@@ -2,16 +2,16 @@ import React from 'react';
 
 import ReactTable from '../../../react-table/React-table';
 
-import { columns, data } from './silverpeak-data';
+import { columns, data } from './isilon-data';
 
-import './silverpeak-warranty.styles.scss';
+import './isilon-equipment.styles.scss';
 
-const SilverpeakWarranty = () => (
+const IsilonEquipment = () => (
   <div>
     <a href="/">
       <img
-        src={require('../../../img/silverpeak.jpg')}
-        alt="silverpeak_logo"
+        src={require('../../../img/isilon.jpg')}
+        alt="isilon_logo"
         style={{
           padding: '5px',
           width: '15rem',
@@ -19,10 +19,10 @@ const SilverpeakWarranty = () => (
         }}
       />
     </a>
-    <div className="silverpeak-table">
+    <div className="isilon-table">
       <ReactTable data={data} columns={columns} />
     </div>
   </div>
 );
 
-export default SilverpeakWarranty;
+export default IsilonEquipment;

@@ -3,26 +3,18 @@ import { Doughnut } from 'react-chartjs-2';
 
 import './outerLabels';
 import 'chartjs-plugin-datalabels';
-import 'chart.js';
 
-class PieChartByBU extends React.Component {
+class AverePieChart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       type: 'doughnut',
       data: {
-        labels: ['AMP', 'iCloud Mail', 'Game Center', 'WWW', 'DSCE', 'SWU'],
+        labels: ['AMP'],
         datasets: [
           {
-            data: [74, 660, 4, 4, 20, 12],
-            backgroundColor: [
-              '#ffc107',
-              '#2e7d32',
-              '#03a9f4',
-              '#ff5252',
-              '#9575cd',
-              '#b71c1c'
-            ]
+            data: [170],
+            backgroundColor: ['#ffc107']
           }
         ]
       }
@@ -39,7 +31,7 @@ class PieChartByBU extends React.Component {
           options={{
             title: {
               display: true,
-              text: 'Netapp Filers By Business Unit',
+              text: 'Avere',
               position: 'top',
               fontSize: 20,
               fontColor: '#111',
@@ -78,4 +70,4 @@ class PieChartByBU extends React.Component {
   }
 }
 
-export default PieChartByBU;
+export default AverePieChart;

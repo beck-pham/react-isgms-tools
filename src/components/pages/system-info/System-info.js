@@ -16,8 +16,8 @@ const SystemInfo = () => (
     <Header />
     <div className="system-info-bg">
       <Title
-        title="System Info"
-        subtitle="Information for Infrastructure Storage System Team"
+        title="System Information"
+        subtitle="Storage Dashboard for Infrastructure Storage System Team"
       />
     </div>
     <Dashboard />

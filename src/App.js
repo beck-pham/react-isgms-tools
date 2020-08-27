@@ -8,12 +8,12 @@ import KnowledgeBase from './components/pages/knowledge-base/Knowledge-base';
 import SystemInfo from './components/pages/system-info/System-info';
 
 /**** WARRANTY PAGE ****/
-import WarrantyTrackerPage from './components/pages/warranty-tracker/Warranty-tracker';
-import NetappWarranty from './components/pages/warranty-tracker/netapp/Netapp-warranty';
-import IsilonWarranty from './components/pages/warranty-tracker/isilon/Isilon-warranty';
-import AvereWarranty from './components/pages/warranty-tracker/avere/Avere-warranty';
-import MaprWarranty from './components/pages/warranty-tracker/mapr/Mapr-warranty';
-import SilverPeakWarranty from './components/pages/warranty-tracker/silverpeak/Silverpeak-warranty';
+import StorageEquipmentPage from './components/pages/storage-equipment/Storage-equipment';
+import NetappEquipment from './components/pages/storage-equipment/netapp/Netapp-equipment';
+import IsilonEquipment from './components/pages/storage-equipment/isilon/Isilon-equipment';
+import AvereEquipment from './components/pages/storage-equipment/avere/Avere-equipment';
+import MaprEquipment from './components/pages/storage-equipment/mapr/Mapr-equipment';
+import SilverPeakEquipment from './components/pages/storage-equipment/silverpeak/Silverpeak-equipment';
 
 /**** INVENTORTY PAGE ****/
 import Inventory from './components/pages/inventory/Inventory';
@@ -36,16 +36,25 @@ const App = () => {
         <Route path="/tool/inventory/isilon" component={IsilonInventory} />
         <Route
           exact
-          path="/tool/warrantytracker"
-          component={WarrantyTrackerPage}
+          path="/tool/storage_equipment"
+          component={StorageEquipmentPage}
         />
-        <Route path="/tool/warrantytracker/netapp" component={NetappWarranty} />
-        <Route path="/tool/warrantytracker/isilon" component={IsilonWarranty} />
-        <Route path="/tool/warrantytracker/avere" component={AvereWarranty} />
-        <Route path="/tool/warrantytracker/mapr" component={MaprWarranty} />
         <Route
-          path="/tool/warrantytracker/silverpeak"
-          component={SilverPeakWarranty}
+          path="/tool/storage_equipment/netapp"
+          component={NetappEquipment}
+        />
+        <Route
+          path="/tool/storage_equipment/isilon"
+          component={IsilonEquipment}
+        />
+        <Route
+          path="/tool/storage_equipment/avere"
+          component={AvereEquipment}
+        />
+        <Route path="/tool/storage_equipment/mapr" component={MaprEquipment} />
+        <Route
+          path="/tool/storage_equipment/silverpeak"
+          component={SilverPeakEquipment}
         />
       </Switch>
     </div>

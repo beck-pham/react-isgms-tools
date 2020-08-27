@@ -31,9 +31,9 @@ const TOOL_DATA = [
   },
   {
     id: 6,
-    title: 'Warranty tracker',
-    imageUrl: require('../../img/warrantytracker.jpg'),
-    linkUrl: '/warrantytracker'
+    title: 'Storage Equipment',
+    imageUrl: require('../../img/storage_equipment.jpg'),
+    linkUrl: '/storage_equipment'
   },
   {
     id: 7,

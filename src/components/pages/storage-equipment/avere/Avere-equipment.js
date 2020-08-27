@@ -4,9 +4,7 @@ import ReactTable from '../../../react-table/React-table';
 
 import { columns, data } from './avere-data';
 
-//import './avere-warranty.styles.scss';
-
-const AvereWarranty = () => (
+const AvereEquipment = () => (
   <div>
     <a href="/">
       <img
@@ -25,4 +23,4 @@ const AvereWarranty = () => (
   </div>
 );
 
-export default AvereWarranty;
+export default AvereEquipment;

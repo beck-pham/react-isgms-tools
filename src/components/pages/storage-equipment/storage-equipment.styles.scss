@@ -1,0 +1,21 @@
+.storage-equipment-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 7rem;
+}
+
+.storage-equipment-bg {
+  background-image: url(../../img/storage-equipment-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pie-chart-container {
+  display: flex;
+  min-height: 20rem;
+}
+
+.pie-chart-item {
+  flex: 1 1 auto;
+}

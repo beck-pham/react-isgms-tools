@@ -1,17 +1,15 @@
 import React from 'react';
 
 import ReactTable from '../../../react-table/React-table';
+import { columns, data } from './netapp-data';
+import './netapp-equipment.styles.scss';
 
-import { columns, data } from './isilon-data';
-
-import './isilon-warranty.styles.scss';
-
-const IsilonWarranty = () => (
+const NetappEquipment = () => (
   <div>
     <a href="/">
       <img
-        src={require('../../../img/isilon.jpg')}
-        alt="isilon_logo"
+        src={require('../../../img/netapp.jpg')}
+        alt="netapp_logo"
         style={{
           padding: '5px',
           width: '15rem',
@@ -19,10 +17,10 @@ const IsilonWarranty = () => (
         }}
       />
     </a>
-    <div className="isilon-table">
+    <div className="netapp-warranty">
       <ReactTable data={data} columns={columns} />
     </div>
   </div>
 );
 
-export default IsilonWarranty;
+export default NetappEquipment;

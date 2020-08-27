@@ -4,9 +4,9 @@ import ReactTable from '../../../react-table/React-table';
 
 import { columns, data } from './mapr-data';
 
-import './mapr-warranty.styles.scss';
+import './mapr-equipment.styles.scss';
 
-const MaprWarranty = () => {
+const MaprEquipment = () => {
   console.log(columns, data);
   return (
     <div>
@@ -27,4 +27,4 @@ const MaprWarranty = () => {
     </div>
   );
 };
-export default MaprWarranty;
+export default MaprEquipment;
