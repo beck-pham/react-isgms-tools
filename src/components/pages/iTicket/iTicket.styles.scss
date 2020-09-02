@@ -7,7 +7,7 @@
     url(../../img/iTicket-bg.jpg);
   background-size: cover;
   background-position: center;
-  padding-bottom: 1rem;
+  margin-bottom: 6rem;
 }
 
 .iTicket-container {
@@ -16,4 +16,11 @@
   justify-content: space-between;
   height: 40vh;
   padding-top: 5rem;
+}
+
+.iticket-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: capitalize;
 }

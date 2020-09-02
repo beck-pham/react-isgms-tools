@@ -5,7 +5,7 @@ import Header from '../../header/Header';
 import Footer from '../../footer/Footer';
 import ReactTable from '../../react-table/React-table';
 
-import Dashboard from '../../dashboard/Dashboard';
+import SystemDashboard from '../../dashboard/SystemDashboard';
 
 import { columns, data } from './system-info.data';
 
@@ -20,7 +20,7 @@ const SystemInfo = () => (
         subtitle="Storage Dashboard for Infrastructure Storage System Team"
       />
     </div>
-    <Dashboard />
+    <SystemDashboard />
     <div className="system-info-table">
       <ReactTable data={data} columns={columns} />
     </div>

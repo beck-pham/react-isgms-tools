@@ -4,10 +4,10 @@ import Header from '../../header/Header';
 import Footer from '../../footer/Footer';
 import Title from '../../title/Title';
 import MenuItem from '../../menu-item/Menu-item';
+import ITicketDashboard from '../../dashboard/iTicketDashboard';
 
 import './iTicket.styles.scss';
 import MENU_ITEM_DATA from '../../menu-item/menu-item.data';
-import Dashboard from '../../dashboard/Dashboard';
 
 class iTicket extends React.Component {
   constructor(props) {
@@ -28,7 +28,7 @@ class iTicket extends React.Component {
             subtitle="Infrastructure Storage Break-fix Ticketing System Dashboard"
           />
         </div>
-        <Dashboard />
+        <ITicketDashboard />
         <div className="iTicket-container">
           {this.state.tickets.map(({ id, ...otherProps }) => (
             <MenuItem key={id} {...otherProps} />
