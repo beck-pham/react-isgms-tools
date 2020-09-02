@@ -20,7 +20,9 @@ const SystemInfo = () => (
         subtitle="Storage Dashboard for Infrastructure Storage System Team"
       />
     </div>
-    <SystemDashboard />
+    <div style={{ padding: '5rem 1rem' }}>
+      <SystemDashboard />
+    </div>
     <div className="system-info-table">
       <ReactTable data={data} columns={columns} />
     </div>
