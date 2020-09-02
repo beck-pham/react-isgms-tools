@@ -15,6 +15,20 @@ const KnowledgeBase = () => (
         title="Knowledge Base"
         subtitle="Search our troubleshooting topic or browse by product caterogy"
       />
+      <form action="#" className="search">
+        <input
+          type="text"
+          className="search-input"
+          placeholder="Search a bug"
+        />
+        <button className="search-button">
+          <ion-icon
+            style={{ verticalAlign: 'middle' }}
+            name="search-outline"
+            size="small"
+          ></ion-icon>
+        </button>
+      </form>
     </div>
 
     <div className="kb-card">

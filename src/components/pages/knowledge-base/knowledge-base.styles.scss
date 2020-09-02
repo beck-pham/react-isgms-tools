@@ -1,17 +1,21 @@
 @import '../../../../public/sass/variable';
 
-.knowledge-base {
-  font-size: 1.4rem;
-  height: 7rem;
-  background-color: white;
-  border-bottom: 1px solid $color-grey-light-2;
+// .knowledge-base {
+//   font-size: 1.4rem;
+//   height: 7rem;
+//   background-color: white;
+//   border-bottom: 1px solid $color-grey-light-2;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
 
 .kb-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   background-image: url(../../img/knowledgebase-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -40,6 +44,51 @@
 ion-icon {
   color: rgba(22, 22, 22, 0.9);
   padding-bottom: 1rem;
+}
+
+/****** SEARCH ******/
+.search {
+  &-input {
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: inherit;
+    background-color: $color-grey-light-1;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    width: 25rem;
+    transition: all 0.2s;
+    margin-right: -3.5rem;
+
+    &:focus {
+      outline: none;
+      width: 40rem;
+      background-color: $color-grey-light-1;
+    }
+
+    &::-webkit-input-placeholder {
+      font-weight: 100;
+      color: $color-grey-light-4;
+    }
+  }
+
+  &-input:focus + &-button {
+    background-color: $color-grey-light-1;
+  }
+
+  &-button {
+    border: none;
+    background-color: $color-grey-light-1;
+    border-radius: 100%;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
 }
 
 .btn {

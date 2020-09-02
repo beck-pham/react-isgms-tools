@@ -6,6 +6,8 @@ import HomePage from './components/pages/homepage/Homepage';
 import ToolPage from './components/pages/tool/Tool';
 import KnowledgeBase from './components/pages/knowledge-base/Knowledge-base';
 import SystemInfo from './components/pages/system-info/System-info';
+import TimeSeries from './components/pages/timeseries/Timeseries';
+import iTicket from './components/pages/iTicket/iTicket';
 
 /**** WARRANTY PAGE ****/
 import StorageEquipmentPage from './components/pages/storage-equipment/Storage-equipment';
@@ -30,7 +32,8 @@ const App = () => {
         <Route exact path="/tool" component={ToolPage} />
         <Route path="/tool/systeminfo" component={SystemInfo} />
         <Route path="/tool/knowledgebase" component={KnowledgeBase} />
-        {/* <Route path="/tool/timeseries" component={TimeSeries} /> */}
+        <Route path="/tool/timeseries" component={TimeSeries} />
+        <Route path="/tool/iTicket" component={iTicket} />
         <Route exact path="/tool/inventory" component={Inventory} />
         <Route path="/tool/inventory/netapp" component={NetappInventory} />
         <Route path="/tool/inventory/isilon" component={IsilonInventory} />

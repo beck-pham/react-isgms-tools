@@ -8,16 +8,6 @@ const Title = ({ title, subtitle }) => (
       <span className="title">{title}</span>
       <span className="subtitle">{subtitle}</span>
     </h2>
-    <form action="#" className="search">
-      <input type="text" className="search-input" placeholder="Search a bug" />
-      <button className="search-button">
-        <ion-icon
-          style={{ verticalAlign: 'middle' }}
-          name="search-outline"
-          size="small"
-        ></ion-icon>
-      </button>
-    </form>
   </div>
 );
 

@@ -1,11 +1,16 @@
-.timeseries-bg {
-  background-image: url(../../img/timeseries-bg.jpg);
+.iTicket-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#e0e0e0, 0.3),
+      rgba(#fafafa, 0.3)
+    ),
+    url(../../img/iTicket-bg.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 1rem;
 }
 
-.timeseries-container {
+.iTicket-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
