@@ -1,37 +1,27 @@
 import React from 'react';
-import { Doughnut } from 'react-chartjs-2';
+import { HorizontalBar } from 'react-chartjs-2';
+import { NON_DISK_TICKETS } from './bar-chart.data';
 
-import './outerLabels';
-import 'chartjs-plugin-datalabels';
-
-class AverePieChart extends React.Component {
+class NonDiskBarChart extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      type: 'doughnut',
-      data: {
-        labels: ['AMP'],
-        datasets: [
-          {
-            data: [170],
-            backgroundColor: ['#ffc107']
-          }
-        ]
-      }
+      type: 'horizontalBar',
+      data: NON_DISK_TICKETS
     };
   }
 
   render() {
     return (
-      <div className="pie-chart">
-        <Doughnut
-          width={400}
-          height={400}
+      <div className="horizontal-bar">
+        <HorizontalBar
           data={this.state.data}
           options={{
+            backgroundColor: 'green',
             title: {
               display: true,
-              text: 'Avere',
+              text: 'Total Non-Disk Tickets',
               position: 'top',
               fontSize: 20,
               fontColor: '#111',
@@ -52,16 +42,6 @@ class AverePieChart extends React.Component {
             animation: {
               easing: 'easeInExpo',
               duration: 2750
-            },
-            plugins: {
-              datalabels: false
-            },
-            cutoutPercentage: 70,
-            responsive: true,
-            elements: {
-              arc: {
-                borderWidth: 5
-              }
             }
           }}
         />
@@ -70,4 +50,4 @@ class AverePieChart extends React.Component {
   }
 }
 
-export default AverePieChart;
+export default NonDiskBarChart;

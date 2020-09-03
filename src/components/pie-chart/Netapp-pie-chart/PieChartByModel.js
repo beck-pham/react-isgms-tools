@@ -51,8 +51,8 @@ class PieChartByModel extends React.Component {
     return (
       <div className="pie-chart">
         <Doughnut
-          width={450}
-          height={450}
+          width={400}
+          height={400}
           data={this.state.data}
           options={{
             title: {
@@ -73,7 +73,7 @@ class PieChartByModel extends React.Component {
               }
             },
             tooltips: {
-              enabled: false
+              enabled: true
             },
             animation: {
               easing: 'easeInExpo',

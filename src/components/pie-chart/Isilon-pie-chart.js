@@ -32,7 +32,7 @@ class IsilonPieChart extends React.Component {
       <div className="pie-chart">
         <Doughnut
           width={400}
-          height={420}
+          height={400}
           data={this.state.data}
           options={{
             title: {
@@ -53,7 +53,7 @@ class IsilonPieChart extends React.Component {
               }
             },
             tooltips: {
-              enabled: false
+              enabled: true
             },
             animation: {
               easing: 'easeInExpo',

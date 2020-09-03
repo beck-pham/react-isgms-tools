@@ -9,6 +9,8 @@ import SystemInfo from './components/pages/system-info/System-info';
 import TimeSeries from './components/pages/timeseries/Timeseries';
 import iTicket from './components/pages/iTicket/iTicket';
 
+import NonDiskBarChart from './components/bar-chart/Nondisk-bar-chart';
+
 /**** WARRANTY PAGE ****/
 import StorageEquipmentPage from './components/pages/storage-equipment/Storage-equipment';
 import NetappEquipment from './components/pages/storage-equipment/netapp/Netapp-equipment';
@@ -30,6 +32,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/tool" component={ToolPage} />
+        <Route path="/test" component={NonDiskBarChart} />
         <Route path="/tool/systeminfo" component={SystemInfo} />
         <Route path="/tool/knowledgebase" component={KnowledgeBase} />
         <Route path="/tool/timeseries" component={TimeSeries} />
