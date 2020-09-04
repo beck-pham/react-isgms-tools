@@ -1,14 +1,14 @@
 import React from 'react';
 import { HorizontalBar } from 'react-chartjs-2';
-import { NON_DISK_TICKETS } from './bar-chart.data';
+import { MAPR_DISK_TICKETS } from './bar-chart.data';
 
-class NonDiskBarChart extends React.Component {
+class MaprDiskModal extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
       type: 'horizontalBar',
-      data: NON_DISK_TICKETS
+      data: MAPR_DISK_TICKETS
     };
   }
 
@@ -18,10 +18,9 @@ class NonDiskBarChart extends React.Component {
         <HorizontalBar
           data={this.state.data}
           options={{
-            backgroundColor: 'green',
             title: {
               display: true,
-              text: 'Total Non-Disk Tickets',
+              text: 'Total Mapr Failed Disks',
               position: 'top',
               fontSize: 20,
               fontColor: '#111',
@@ -41,7 +40,7 @@ class NonDiskBarChart extends React.Component {
             },
             animation: {
               easing: 'easeInExpo',
-              duration: 2750
+              duration: 2000
             }
           }}
         />
@@ -50,4 +49,4 @@ class NonDiskBarChart extends React.Component {
   }
 }
 
-export default NonDiskBarChart;
+export default MaprDiskModal;

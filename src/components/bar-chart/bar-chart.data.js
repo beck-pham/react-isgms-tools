@@ -12,6 +12,7 @@ export const NON_DISK_TICKETS = {
   ],
   datasets: [
     {
+      label: 'Non-Disk Tickets Count Per Vendor',
       data: [22, 0, 11, 2, 1, 1, 4, 0, 1],
       backgroundColor: [
         '#ffc107',
@@ -41,16 +42,17 @@ export const NETAPP_DISK_TICKETS = {
   ],
   datasets: [
     {
-      data: [4, 3727, 578, 14, 0, 1418, 3, 808],
+      label: 'Netapp Disk Model',
+      data: [0, 380, 29, 1, 0, 128, 0, 42],
       backgroundColor: [
-        '#ffc107',
+        '#78909c',
+        '#ff5252',
         '#2e7d32',
         '#03a9f4',
-        '#ff5252',
-        '#9575cd',
         '#b71c1c',
-        '#78909c',
-        '#1b5e20'
+        '#ffc107',
+        '#1b5e20',
+        '#9575cd'
       ]
     }
   ]
@@ -60,8 +62,10 @@ export const ISILON_DISK_TICKETS = {
   labels: ['1.2TB SAS', '2TB SATA', '3TB SATA', '600GB-10K SAS'],
   datasets: [
     {
-      data: [16, 15, 80, 350],
-      backgroundColor: ['#ffc107', '#2e7d32', '#03a9f4', '#ff5252']
+      label: 'Isilon Disk Model',
+      data: [5, 0, 0, 20],
+      backgroundColor: ['#ffc107', '#2e7d32', '#03a9f4', '#ff5252'],
+      barThickness: 30
     }
   ]
 };
@@ -70,8 +74,10 @@ export const MAPR_DISK_TICKETS = {
   labels: ['TOTAL'],
   datasets: [
     {
-      data: [317],
-      backgroundColor: ['#2e7d32']
+      label: 'Mapr Disk Model',
+      data: [36],
+      backgroundColor: ['#2e7d32'],
+      barThickness: 30
     }
   ]
 };

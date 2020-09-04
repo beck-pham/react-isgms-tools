@@ -4,7 +4,6 @@ import Header from '../../header/Header';
 import Footer from '../../footer/Footer';
 import Title from '../../title/Title';
 import MenuItem from '../../menu-item/Menu-item';
-import DashboardModal from '../../button/modal/DashboardModal';
 import ITicketDashboard from '../../dashboard/iTicketDashboard';
 
 import './iTicket.styles.scss';
@@ -32,7 +31,6 @@ class iTicket extends React.Component {
         </div>
         <div className="iTicket-dashboard">
           <ITicketDashboard />
-          <DashboardModal />
         </div>
         <div className="iTicket-container">
           {this.state.tickets.map(({ id, ...otherProps }) => (

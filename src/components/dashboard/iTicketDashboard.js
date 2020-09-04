@@ -1,6 +1,6 @@
 import React from 'react';
 import DashboardItem from '../dashboard-item/Dashboard-item';
-
+import DashboardModal from '../button/modal/DashboardModal';
 import './dashboard.styles.scss';
 
 class ITicketDashboard extends React.Component {
@@ -50,6 +50,7 @@ class ITicketDashboard extends React.Component {
             <DashboardItem key={id} {...otherProps} />
           ))}
         </div>
+        <DashboardModal />
       </div>
     );
   }
