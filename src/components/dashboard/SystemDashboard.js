@@ -12,7 +12,7 @@ class SystemDashboard extends React.Component {
         {
           id: 1,
           title: 'Total Users',
-          subtitle: '34% from last week',
+          subtitle: '34% from last month',
           end: 2.5,
           duration: 2.75,
           separator: '" "',
@@ -23,21 +23,21 @@ class SystemDashboard extends React.Component {
         {
           id: 2,
           title: 'Total Filers',
-          subtitle: '7% from last week',
+          subtitle: '7% from last month',
           end: 557,
           duration: 2.75
         },
         {
           id: 3,
           title: 'Total Disks Used',
-          subtitle: '15% from last week',
+          subtitle: '15% from last month',
           end: 199158,
           duration: 2.75
         },
         {
           id: 4,
           title: 'Total Aggr Capacity',
-          subtitle: '6% from last week',
+          subtitle: '6% from last month',
           end: 83.84,
           duration: 2.75,
           separator: '" "',
@@ -48,7 +48,7 @@ class SystemDashboard extends React.Component {
         {
           id: 5,
           title: 'Total Aggr Used',
-          subtitle: '12% from last week',
+          subtitle: '12% from last month',
           end: 63.01,
           duration: 2.75,
           separator: '" "',
@@ -59,7 +59,7 @@ class SystemDashboard extends React.Component {
         {
           id: 6,
           title: 'Total Aggr Available',
-          subtitle: '9% from last week',
+          subtitle: '9% from last month',
           end: 20.47,
           duration: 2.75,
           separator: '" "',

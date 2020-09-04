@@ -13,7 +13,7 @@ export const NON_DISK_TICKETS = {
   datasets: [
     {
       label: 'Non-Disk Tickets Count Per Vendor',
-      data: [22, 0, 11, 2, 1, 1, 4, 0, 1],
+      data: [178, 10, 74, 3, 3, 3, 23, 0, 1],
       backgroundColor: [
         '#ffc107',
         '#2e7d32',
@@ -43,7 +43,7 @@ export const NETAPP_DISK_TICKETS = {
   datasets: [
     {
       label: 'Netapp Disk Model',
-      data: [0, 380, 29, 1, 0, 128, 0, 42],
+      data: [0, 983, 96, 0, 6, 294, 3, 175],
       backgroundColor: [
         '#78909c',
         '#ff5252',
@@ -63,7 +63,7 @@ export const ISILON_DISK_TICKETS = {
   datasets: [
     {
       label: 'Isilon Disk Model',
-      data: [5, 0, 0, 20],
+      data: [8, 8, 11, 77],
       backgroundColor: ['#ffc107', '#2e7d32', '#03a9f4', '#ff5252'],
       barThickness: 30
     }
@@ -75,7 +75,7 @@ export const MAPR_DISK_TICKETS = {
   datasets: [
     {
       label: 'Mapr Disk Model',
-      data: [36],
+      data: [147],
       backgroundColor: ['#2e7d32'],
       barThickness: 30
     }

@@ -12,29 +12,29 @@ class ITicketDashboard extends React.Component {
         {
           id: 1,
           title: 'Total Non-Disk Tickets',
-          subtitle: '4% from last week',
-          end: 895,
+          subtitle: '4% from last month',
+          end: 333,
           duration: 2.75
         },
         {
           id: 2,
           title: 'Total NetApp Failed Disks',
-          subtitle: '7% from last week',
-          end: 557,
+          subtitle: '7% from last month',
+          end: 2828,
           duration: 2.75
         },
         {
           id: 3,
           title: 'Total Isilon Failed Disks',
-          subtitle: '5% from last week',
-          end: 461,
+          subtitle: '5% from last month',
+          end: 254,
           duration: 2.75
         },
         {
           id: 4,
           title: 'Total Mapr Failed Disks',
-          subtitle: '12% from last week',
-          end: 317,
+          subtitle: '12% from last month',
+          end: 147,
           duration: 2.75
         }
       ]
@@ -44,7 +44,9 @@ class ITicketDashboard extends React.Component {
   render() {
     return (
       <div>
-        <h3 className="iticket-heading">August Break-fix Tickets</h3>
+        <h3 className="iticket-heading">
+          Break-fix Tickets for The Last 6 months
+        </h3>
         <div className="dashboard-container">
           {this.state.items.map(({ id, ...otherProps }) => (
             <DashboardItem key={id} {...otherProps} />
