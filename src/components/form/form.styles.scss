@@ -1,0 +1,128 @@
+@import '../../../public/sass/variable';
+
+.form-container {
+  display: grid;
+  grid-template-areas: 'left right';
+  max-width: 900px;
+  color: #d9b08c;
+  font-family: $font-family;
+  font-size: 14px;
+  font-weight: 600;
+  justify-items: center;
+}
+
+.left-container {
+  background: $secondary-bg-color;
+  overflow: hidden;
+  padding: 40px 0 0 0;
+  position: relative;
+  text-align: center;
+  width: 300px;
+
+  & h1 {
+    color: #19181a;
+    display: inline-block;
+    font-size: 24px;
+
+    & i {
+      background: #19181a;
+      border-radius: 50%;
+      color: $secondary-bg-color;
+      font-size: 24px;
+      margin-right: 5px;
+      padding: 10px;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.form-img {
+  bottom: -5px;
+  position: absolute;
+  text-align: center;
+  filter: sepia(100%);
+  width: 70%;
+}
+
+.right-container {
+  background: lighten(#19181a, 5%);
+  display: grid;
+  width: 60rem;
+  padding: 3rem;
+}
+
+.form-input {
+  border: 1px solid $form-border-color;
+  border-radius: 0.5rem;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 5px;
+  color: #d9b08c;
+  width: 20rem;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px $color-white;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+
+  &:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px $color-white;
+  }
+}
+
+.form-group {
+  margin-bottom: 3rem;
+}
+.form-label {
+  color: #d9b08c;
+  width: 176px;
+}
+
+.form-select {
+  background: #fff;
+  border: 1px solid $form-border-color;
+  border-radius: 0.5rem;
+  display: inline-block;
+  padding: 5px;
+  width: 20rem;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px $color-white;
+}
+
+.btn {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 38px;
+  line-height: 38px;
+  width: 100px;
+  border-radius: 19px;
+  font-family: $font-family;
+  padding: 0;
+
+  &-primary {
+    background: $color-primary;
+    border: 1px solid transparent;
+    color: $color-white;
+    &:hover {
+      background: black;
+      border: none;
+    }
+  }
+
+  &-secondary {
+    background: #fff;
+    transition: 0.2s all ease-in-out;
+    color: black;
+    border: 1px solid white;
+
+    &:hover {
+      background: black;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+  padding: 1rem;
+}

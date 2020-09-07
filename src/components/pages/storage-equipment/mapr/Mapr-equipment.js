@@ -7,7 +7,7 @@ import { columns, data } from './mapr-data';
 import './mapr-equipment.styles.scss';
 
 const MaprEquipment = () => {
-  console.log(columns, data);
+  //console.log(columns, data);
   return (
     <div>
       <a href="/">

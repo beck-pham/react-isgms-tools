@@ -8,10 +8,10 @@ class ITicketDashboard extends React.Component {
     super(props);
 
     this.state = {
-      items: [
+      opens: [
         {
           id: 1,
-          title: 'Total Non-Disk Tickets',
+          title: 'Total Tickets count',
           subtitle: '4% from last month',
           end: 333,
           duration: 2.75
@@ -35,20 +35,6 @@ class ITicketDashboard extends React.Component {
           title: 'Total Mapr Failed Disks',
           subtitle: '12% from last month',
           end: 147,
-          duration: 2.75
-        },
-        {
-          id: 5,
-          title: 'Total Open Tickets',
-          subtitle: '1% from last month',
-          end: 48,
-          duration: 2.75
-        },
-        {
-          id: 6,
-          title: 'Total Closed Tickets',
-          subtitle: '2% from last month',
-          end: 2090,
           duration: 2.75
         }
       ]

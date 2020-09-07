@@ -33,7 +33,7 @@ $color-black-main: #18181e;
 $color-black-light: #0d0d1100;
 $color-black-dark: #18181e;
 $color-tan-main: #dec79b;
-$color-green: #2e7d32;
+//$color-green: #2e7d32;
 
 //FONT
 $default-font-size: 1.6rem;
@@ -42,3 +42,11 @@ $default-font-size: 1.6rem;
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
+
+//FORM
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+$primary-bg-color: #d9b08c;
+$secondary-bg-color: #ffcb9a;
+$font-color: #d9b08c;
+$font-family: 'Montserrat', sans-serif;
+$form-border-color: rgba(0, 0, 0, 0.1);

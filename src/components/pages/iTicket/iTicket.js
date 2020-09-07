@@ -7,14 +7,38 @@ import MenuItem from '../../menu-item/Menu-item';
 import ITicketDashboard from '../../dashboard/iTicketDashboard';
 
 import './iTicket.styles.scss';
-import MENU_ITEM_DATA from '../../menu-item/menu-item.data';
 
 class iTicket extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      tickets: MENU_ITEM_DATA
+      tickets: [
+        {
+          id: 1,
+          title: 'Break-fix Ticket',
+          imageUrl: require('../../img/datacenter.jpg'),
+          linkUrl: '/break_fix_tickets'
+        },
+        {
+          id: 2,
+          title: 'NetApp',
+          imageUrl: require('../../img/netapp.jpg'),
+          linkUrl: '/netapp'
+        },
+        {
+          id: 3,
+          title: 'Isilon',
+          imageUrl: require('../../img/isilon.jpg'),
+          linkUrl: '/isilon'
+        },
+        {
+          id: 4,
+          title: 'Mapr',
+          imageUrl: require('../../img/mapr.jpg'),
+          linkUrl: '/mapr'
+        }
+      ]
     };
   }
 

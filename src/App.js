@@ -8,6 +8,7 @@ import KnowledgeBase from './components/pages/knowledge-base/Knowledge-base';
 import SystemInfo from './components/pages/system-info/System-info';
 import TimeSeries from './components/pages/timeseries/Timeseries';
 import iTicket from './components/pages/iTicket/iTicket';
+// import iTicketForm from './components/form/iTicketForm';
 
 /**** WARRANTY PAGE ****/
 import StorageEquipmentPage from './components/pages/storage-equipment/Storage-equipment';
@@ -21,7 +22,6 @@ import SilverPeakEquipment from './components/pages/storage-equipment/silverpeak
 import Inventory from './components/pages/inventory/Inventory';
 import NetappInventory from './components/pages/inventory/netapp-inventory/Netapp-inventory';
 import IsilonInventory from './components/pages/inventory/isilon-inventory/Isilon-inventory';
-import MarpDiskModal from './components/bar-chart/Mapr-disk-modal';
 
 //import TimeSeries from './components/pages/timeseries/Timeseries';
 
@@ -29,9 +29,11 @@ const App = () => {
   return (
     <div>
       <Switch>
+        {/* */}
+        {/* <Route exact path="/test" component={iTicketForm} /> */}
+
         <Route exact path="/" component={HomePage} />
         <Route exact path="/tool" component={ToolPage} />
-        <Route exact path="/test" component={MarpDiskModal} />
         <Route path="/tool/systeminfo" component={SystemInfo} />
         <Route path="/tool/knowledgebase" component={KnowledgeBase} />
         <Route path="/tool/timeseries" component={TimeSeries} />

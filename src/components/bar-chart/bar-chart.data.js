@@ -29,6 +29,44 @@ export const NON_DISK_TICKETS = {
   ]
 };
 
+export const CLOSED_TICKETS = {
+  labels: ['iCloud Mail', 'WWW', 'Game Center', 'iCloud', 'AMP', 'DSCE', 'SWU'],
+  datasets: [
+    {
+      label: 'Closed Break-fix Tickets Per Business Group',
+      data: [1494, 35, 27, 148, 338, 32, 5],
+      backgroundColor: [
+        '#ffc107',
+        '#2e7d32',
+        '#03a9f4',
+        '#ff5252',
+        '#9575cd',
+        '#b71c1c',
+        '#78909c'
+      ]
+    }
+  ]
+};
+
+export const OPEN_TICKETS = {
+  labels: ['iCloud Mail', 'WWW', 'Game Center', 'iCloud', 'AMP', 'DSCE', 'SWU'],
+  datasets: [
+    {
+      label: 'Open Break-fix Tickets Per Business Group',
+      data: [38, 1, 0, 5, 4, 0, 1],
+      backgroundColor: [
+        '#ffc107',
+        '#2e7d32',
+        '#03a9f4',
+        '#ff5252',
+        '#9575cd',
+        '#b71c1c',
+        '#78909c'
+      ]
+    }
+  ]
+};
+
 export const NETAPP_DISK_TICKETS = {
   labels: [
     '450GB',

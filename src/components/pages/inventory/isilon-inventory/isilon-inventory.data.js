@@ -396,5 +396,3 @@ export const data = [
     Modify: ''
   }
 ];
-
-console.log(data);
