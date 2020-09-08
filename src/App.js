@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import './App.css';
+import './App.scss';
 import HomePage from './components/pages/homepage/Homepage';
 import ToolPage from './components/pages/tool/Tool';
 import KnowledgeBase from './components/pages/knowledge-base/Knowledge-base';

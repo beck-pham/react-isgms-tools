@@ -2,61 +2,77 @@
 @import '../../../public/sass/heading';
 @import '../../../public/sass/paragraph';
 @import '../../../public/sass/button';
+@import '../../../public/sass/mixins';
 
 .section-about {
-  background-color: $color-grey-light-1;
-  padding: 20rem 0rem 30rem 5rem;
-  margin-top: -23vh;
+  height: 80vh;
+  padding: 2rem;
 }
-
 .about-container {
   display: grid;
-  gap: 70rem;
-  //grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-}
-
-.heading {
-  grid-column: 1 / 3;
+  grid-template-columns: repeat(2, auto);
 }
 .composition {
   position: relative;
-  grid-column: 3 / 4;
+
   &-photo {
-    margin-top: 3rem;
-    width: 35rem;
-    box-shadow: 0 2rem 4rem rgba(black, 0.4);
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     border-radius: 2px;
     position: absolute;
     z-index: 10;
     transition: all 0.2s;
-    //outline-offset: 2rem;
+    outline-offset: 2rem;
+
+    @include respond(tab-port) {
+      float: left;
+      position: relative;
+      width: 33.33333333%;
+      box-shadow: 0 1.5rem 3rem rgba($color-black, 0.2);
+    }
+
+    &--p1 {
+      left: 0;
+      top: -2rem;
+
+      @include respond(tab-port) {
+        top: 0;
+        transform: scale(1.2);
+      }
+    }
+
+    &--p2 {
+      right: 0;
+      top: 2rem;
+
+      @include respond(tab-port) {
+        top: -1rem;
+        transform: scale(1.3);
+        z-index: 100;
+      }
+    }
+
+    &--p3 {
+      left: 20%;
+      top: 10rem;
+
+      @include respond(tab-port) {
+        top: 1rem;
+        left: 0;
+        transform: scale(1.1);
+      }
+    }
+
     &:hover {
-      //outline: 0.5rem solid $color-primary;
-      transform: scale(1.2) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba(black, 0.7); // re-adjust box-shadow to match the scale input
+      outline: 1.5rem solid $color-primary;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
       z-index: 20;
     }
   }
 
-  .photo-1 {
-    right: 0;
-    top: -2rem;
-  }
-
-  .photo-2 {
-    left: -10rem;
-    top: 2rem;
-  }
-
-  .photo-3 {
-    left: -25rem;
-    top: 12rem;
-  }
-
-  //when hover on the "cursor photo", the other 2 photos "scale back"
   &:hover &__photo:not(:hover) {
     transform: scale(0.95);
   }
+  //composition:hover composition__photo:not(:hover) {
 }

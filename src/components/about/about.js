@@ -7,6 +7,7 @@ const About = () => (
     <div style={{ textAlign: 'center', margin: '3rem' }}>
       <h2 className="heading-secondary">Who are we?</h2>
     </div>
+
     <div className="about-container">
       <div className="heading">
         <h3 className="heading-tertinary " style={{ marginBottom: '1rem' }}>
@@ -14,7 +15,9 @@ const About = () => (
         </h3>
         <p className="paragraph">
           Provide the best Storage experience as a Service for iCloud, iCloud
-          Mail, WWW, AMP and SWU as well as the iCloud Lab environment.
+          Mail, WWW, AMP
+          <br />
+          and SWU as well as the iCloud Lab environment.
         </p>
         <h3 className="heading-tertinary " style={{ marginBottom: '1rem' }}>
           Contact Information
@@ -38,17 +41,17 @@ const About = () => (
         <img
           src="img/tech1.jpg"
           alt="technology_1"
-          className="composition-photo photo-1"
+          className="composition-photo composition-photo--p1"
         />
         <img
           src="img/tech2.jpg"
           alt="src/components/img/technology_2"
-          className="composition-photo photo-2"
+          className="composition-photo composition-photo--p2"
         />
         <img
           src="img/tech3.jpg"
           alt="src/components/img/technology_3"
-          className="composition-photo photo-3"
+          className="composition-photo composition-photo--p3"
         />
       </div>
     </div>

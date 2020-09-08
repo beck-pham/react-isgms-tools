@@ -22,9 +22,8 @@ const Feature = () => (
           Data Migration
         </h3>
         <p className="paragraph">
-          Moving data, applications and databases across platforms to provide
-          faster performance and dynamic scaling along with improved data
-          management features.
+          Moving data and applications across platforms to provide faster
+          performance with dynamic scaling features.
         </p>
       </div>
 

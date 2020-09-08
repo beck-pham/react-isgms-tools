@@ -1,4 +1,5 @@
 @import '../../../public/sass/variable';
+@import '../../../public/sass/mixins';
 
 .feature-container {
   // display: grid;
@@ -7,9 +8,9 @@
   // // grid-template-columns: repeat(4, 1fr);
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 5rem;
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 20rem;
+  padding: 0 5rem;
 
   &-box {
     background-color: rgba($color-white, 0.8);
@@ -20,10 +21,15 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     transition: transform 0.2s;
     height: 40rem;
+    justify-self: center;
 
     &:hover {
       transform: translateY(-1.5rem) scale(1.03);
     }
+  }
+
+  @include respond(tab-port) {
+    padding: 2rem;
   }
 }
 
