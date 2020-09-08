@@ -5,6 +5,7 @@ import Footer from '../../footer/Footer';
 import Title from '../../title/Title';
 import MenuItem from '../../menu-item/Menu-item';
 import ITicketDashboard from '../../dashboard/iTicketDashboard';
+import TicketForm from '../../form/TicketForm';
 
 import './iTicket.styles.scss';
 
@@ -18,7 +19,7 @@ class iTicket extends React.Component {
           id: 1,
           title: 'Break-fix Ticket',
           imageUrl: require('../../img/datacenter.jpg'),
-          linkUrl: '/break_fix_tickets'
+          linkUrl: '/break_fix_ticket'
         },
         {
           id: 2,
@@ -55,6 +56,9 @@ class iTicket extends React.Component {
         </div>
         <div className="iTicket-dashboard">
           <ITicketDashboard />
+          <div className="iTicket-form">
+            <TicketForm />
+          </div>
         </div>
         <div className="iTicket-container">
           {this.state.tickets.map(({ id, ...otherProps }) => (

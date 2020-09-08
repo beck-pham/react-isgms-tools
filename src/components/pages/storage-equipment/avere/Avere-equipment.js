@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Header from '../../../header/Header';
+import Footer from '../../../footer/Footer';
 import ReactTable from '../../../react-table/React-table';
 
 import { columns, data } from './avere-data';
 
 const AvereEquipment = () => (
   <div>
+    <Header />
     <a href="/">
       <img
         src={require('../../../img/avere.jpg')}
@@ -20,6 +22,7 @@ const AvereEquipment = () => (
     <div className="avere-table">
       <ReactTable data={data} columns={columns} />
     </div>
+    <Footer />
   </div>
 );
 

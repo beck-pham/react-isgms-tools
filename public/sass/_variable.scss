@@ -3,6 +3,9 @@
 // $color-primary-light: #7ed56f;
 // $color-primary-dark: #28b485;
 
+/*******BACKGROUND COLOR********/
+$color-primary-background: lighten(#19181a, 5%);
+
 $color-primary: #1976d2;
 $color-primary-light: #b3e5fc;
 $color-primary-dark: #2979ff;
@@ -33,7 +36,6 @@ $color-black-main: #18181e;
 $color-black-light: #0d0d1100;
 $color-black-dark: #18181e;
 $color-tan-main: #dec79b;
-//$color-green: #2e7d32;
 
 //FONT
 $default-font-size: 1.6rem;
@@ -50,3 +52,8 @@ $secondary-bg-color: #ffcb9a;
 $font-color: #d9b08c;
 $font-family: 'Montserrat', sans-serif;
 $form-border-color: rgba(0, 0, 0, 0.1);
+
+//TESTING COLOR:
+$color-test-1: #eae7dc;
+$color-test-2: #d8c3a5;
+$color-font-1: #d9b08c;

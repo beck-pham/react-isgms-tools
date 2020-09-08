@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Header from '../../../header/Header';
+import Footer from '../../../footer/Footer';
 import ReactTable from '../../../react-table/React-table';
 
 import { columns, data } from './isilon-data';
@@ -8,6 +9,7 @@ import './isilon-equipment.styles.scss';
 
 const IsilonEquipment = () => (
   <div>
+    <Header />
     <a href="/">
       <img
         src={require('../../../img/isilon.jpg')}
@@ -22,6 +24,7 @@ const IsilonEquipment = () => (
     <div className="isilon-table">
       <ReactTable data={data} columns={columns} />
     </div>
+    <Footer />
   </div>
 );
 

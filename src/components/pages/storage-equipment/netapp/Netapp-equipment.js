@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Header from '../../../header/Header';
+import Footer from '../../../footer/Footer';
 import ReactTable from '../../../react-table/React-table';
 import { columns, data } from './netapp-data';
 import './netapp-equipment.styles.scss';
 
 const NetappEquipment = () => (
   <div>
+    <Header />
     <a href="/">
       <img
         src={require('../../../img/netapp.jpg')}
@@ -20,6 +22,7 @@ const NetappEquipment = () => (
     <div className="netapp-warranty">
       <ReactTable data={data} columns={columns} />
     </div>
+    <Footer />
   </div>
 );
 

@@ -3,9 +3,8 @@
 .header {
   font-size: 1.4rem;
   height: 7rem;
-  background-color: white;
+  background: $color-primary-background;
   border-bottom: 1px solid $color-grey-light-2;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,11 +23,12 @@
 
     &-link:link,
     &-link:visited {
-      color: black;
+      color: $color-font-1;
       text-decoration: none;
       text-transform: uppercase;
       display: block;
       padding: 1.5rem 3rem;
+      font-weight: 700;
     }
   }
 }
