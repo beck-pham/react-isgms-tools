@@ -45,12 +45,12 @@ const About = () => (
         />
         <img
           src="img/tech2.jpg"
-          alt="src/components/img/technology_2"
+          alt="technology_2"
           className="composition-photo composition-photo--p2"
         />
         <img
           src="img/tech3.jpg"
-          alt="src/components/img/technology_3"
+          alt="stechnology_3"
           className="composition-photo composition-photo--p3"
         />
       </div>

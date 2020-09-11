@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../../header/Header';
+import NavBar from '../../../nav/NavBar';
 import Footer from '../../../footer/Footer';
 import ReactTable from '../../../react-table/React-table';
 
@@ -9,7 +9,7 @@ import './silverpeak-equipment.styles.scss';
 
 const SilverPeakEquipment = () => (
   <div>
-    <Header />
+    <NavBar />
     <a href="/">
       <img
         src={require('../../../img/silverpeak.jpg')}

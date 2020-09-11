@@ -1,0 +1,80 @@
+@import '../../../public/sass/variable';
+@import '../nav-item/navitem.styles.scss';
+
+.dropdown {
+  color: white;
+  position: absolute;
+  top: 70px; // slide down from navBar (width is 70px) slide down completely
+  width: 300px;
+  transform: translateX(-45%);
+  background-color: var(--bg);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  overflow: hidden; // hide all child element that overlap the Nav bar container
+  transition: height var(--speed) ease;
+  z-index: 10;
+}
+
+.dropdown-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+  font-size: 2rem;
+  color: white;
+
+  &:hover {
+    background-color: #525357;
+  }
+}
+
+.link-item:link {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.link-item:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.icon-right {
+  margin-left: auto; // in FLEXBOX, push right icon all the way to the right and everything else to the left
+}
+
+.menu {
+  width: 100%;
+}
+/* CSSTransition classes  */
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+.menu-primary-exit {
+  position: absolute;
+}
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all var(--speed) ease;
+}
+
+.menu-secondary-enter {
+  transform: translateX(110%);
+}
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+.menu-secondary-exit {
+}
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all var(--speed) ease;
+}

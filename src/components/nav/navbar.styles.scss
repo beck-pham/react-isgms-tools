@@ -1,0 +1,14 @@
+@import '../../../public/sass/variable';
+
+.nav-bar {
+  height: var(--nav-size);
+  background-color: var(--bg);
+}
+
+.nav-list {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}

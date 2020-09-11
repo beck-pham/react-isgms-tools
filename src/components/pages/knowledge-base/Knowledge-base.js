@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Title from '../../title/Title';
-import Header from '../../header/Header';
+import NavBar from '../../nav/NavBar';
 import Footer from '../../footer/Footer';
 
 import './knowledge-base.styles.scss';
 
 const KnowledgeBase = () => (
   <div>
-    <Header />
+    <NavBar />
     <div className="kb-bg">
       <Title
         title="Knowledge Base"

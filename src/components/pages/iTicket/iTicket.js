@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../../header/Header';
+import NavBar from '../../nav/NavBar';
 import Footer from '../../footer/Footer';
 import Title from '../../title/Title';
 import MenuItem from '../../menu-item/Menu-item';
@@ -19,7 +19,7 @@ class iTicket extends React.Component {
           id: 1,
           title: 'Break-fix Ticket',
           imageUrl: require('../../img/datacenter.jpg'),
-          linkUrl: '/break_fix_ticket'
+          linkUrl: '/breakfix_ticket'
         },
         {
           id: 2,
@@ -46,7 +46,7 @@ class iTicket extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <NavBar />
         <div className="iTicket-bg">
           <Title
             title="iTicket"

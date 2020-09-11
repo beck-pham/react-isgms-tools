@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuItem from '../../menu-item/Menu-item';
-import Header from '../../header/Header';
+import NavBar from '../../nav/NavBar';
 import Title from '../../title/Title';
 import Footer from '../../footer/Footer';
 import PieChartByDC from '../../pie-chart/Netapp-pie-chart/PieChartByDC';
@@ -23,7 +23,7 @@ class StorageEquipmentPage extends React.Component {
   render() {
     return (
       <div style={{ paddingBottom: '2rem' }}>
-        <Header />
+        <NavBar />
         <div className="storage-equipment-bg">
           <Title
             title="Storage Assets"

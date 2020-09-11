@@ -2,7 +2,7 @@ import React from 'react';
 
 import MenuItem from '../../menu-item/Menu-item';
 import Footer from '../../footer/Footer';
-import Header from '../../header/Header';
+import NavBar from '../../nav/NavBar';
 import TOOL_DATA from './tool.data';
 
 import './tool.styles.scss';
@@ -19,7 +19,7 @@ class ToolPage extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <NavBar />
         <h3 style={{ textAlign: 'center' }}>
           <span
             className="heading-secondary"

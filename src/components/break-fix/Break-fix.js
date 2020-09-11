@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../title/Title';
-import Header from '../header/Header';
+import NavBar from '../nav/NavBar';
 import Footer from '../footer/Footer';
 import ReactTable from '../react-table/React-table';
 
@@ -10,7 +10,7 @@ import './break-fix.styles.scss';
 
 const BreakfixTicket = () => (
   <div>
-    <Header />
+    <NavBar />
     <div>
       <Title title="Break-fix page" />
     </div>

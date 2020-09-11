@@ -1,0 +1,45 @@
+@import '../../../public/sass/variable';
+
+.nav-item {
+  width: calc(var(--nav-size) * 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.icon-button {
+  --button-size: calc(var(--nav-size) * 0.5);
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: var(--bg-accent);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: filter 300ms;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+}
+
+.icon-button svg {
+  fill: var(--text-color);
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon-right svg {
+  fill: var(--text-color);
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-title {
+  position: absolute;
+  top: 5rem;
+  color: white;
+}

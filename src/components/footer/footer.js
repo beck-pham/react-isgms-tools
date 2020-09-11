@@ -24,7 +24,7 @@ const Footer = () => (
         <ul className="footer-list">
           <li className="footer-item">
             <a
-              href="https://radar.apple.com"
+              href="https://app.slack.com/client/TEJ6NBG84/CHAG4R058"
               className="footer-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -34,7 +34,7 @@ const Footer = () => (
           </li>
           <li className="footer-item">
             <a
-              href="https://app.slack.com/client/TEJ6NBG84/CHAG4R058"
+              href="https://radar.apple.com"
               className="footer-link"
               target="_blank"
               rel="noopener noreferrer"

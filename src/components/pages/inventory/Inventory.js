@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuItem from '../../menu-item/Menu-item';
-import Header from '../../header/Header';
+import NavBar from '../../nav/NavBar';
 import Title from '../../title/Title';
 import Footer from '../../footer/Footer';
 import MENU_ITEM_DATA from '../../menu-item/menu-item.data';
@@ -18,7 +18,7 @@ class Inventory extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <NavBar />
         <div className="inventory-bg">
           <Title
             title="Inventory"

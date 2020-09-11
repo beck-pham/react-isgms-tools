@@ -21,13 +21,13 @@ const TOOL_DATA = [
     id: 4,
     title: 'time series',
     imageUrl: require('../../img/timeseries.jpg'),
-    linkUrl: '/timeseries'
+    linkUrl: '/time_series'
   },
   {
     id: 5,
     title: 'knowledge base',
     imageUrl: require('../../img/knowledgebase.jpg'),
-    linkUrl: '/knowledgebase'
+    linkUrl: '/knowledge_base'
   },
   {
     id: 6,
@@ -39,7 +39,7 @@ const TOOL_DATA = [
     id: 7,
     title: 'System Info',
     imageUrl: require('../../img/systeminfo.jpg'),
-    linkUrl: '/systeminfo'
+    linkUrl: '/system_info'
   },
   {
     id: 8,

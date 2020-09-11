@@ -57,3 +57,15 @@ $form-border-color: rgba(0, 0, 0, 0.1);
 $color-test-1: #eae7dc;
 $color-test-2: #d8c3a5;
 $color-font-1: #d9b08c;
+
+//NAVBAR
+
+:root {
+  --bg: #242526;
+  // --bg-accent: white;
+  --text-color: #dadce1;
+  --nav-size: 7rem;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 500ms;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../../header/Header';
+import NavBar from '../../nav/NavBar';
 import Footer from '../../footer/Footer';
 import MenuItemExternal from '../../menu-item/Menu-item-external';
 import Title from '../../title/Title';
@@ -50,7 +50,7 @@ class TimeSeries extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <NavBar />
         <div className="timeseries-bg">
           <Title
             title="Time Series"

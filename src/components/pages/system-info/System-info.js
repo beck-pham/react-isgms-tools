@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Title from '../../title/Title';
-import Header from '../../header/Header';
+import NavBar from '../../nav/NavBar';
 import Footer from '../../footer/Footer';
 import ReactTable from '../../react-table/React-table';
 
@@ -13,7 +13,7 @@ import './system-info.styles.scss';
 
 const SystemInfo = () => (
   <div className="system-info">
-    <Header />
+    <NavBar />
     <div className="system-info-bg">
       <Title
         title="System Information"
