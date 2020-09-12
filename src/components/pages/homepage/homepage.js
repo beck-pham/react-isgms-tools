@@ -1,4 +1,5 @@
 import React from 'react';
+import './homepage.styles.scss';
 
 // import NavBar from '../../nav/NavBar';
 import Introduction from '../../introduction/Introduction';

@@ -1,7 +1,11 @@
 .section-directory {
   padding: 15rem 0;
   position: relative;
-  background-color: #b3e5fc;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(#03a9f4, 0.9),
+    rgba(#2979ff, 0.9)
+  );
 }
 
 .directory {

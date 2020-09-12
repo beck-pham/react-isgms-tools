@@ -57,7 +57,7 @@ const App = () => {
       />
       <Route path="/tool/storage_equipment/avere" component={AvereEquipment} />
       <Route path="/tool/storage_equipment/mapr" component={MaprEquipment} />
-      <Route
+      <Route 
         path="/tool/storage_equipment/silverpeak"
         component={SilverPeakEquipment}
       />

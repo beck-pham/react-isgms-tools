@@ -1,4 +1,8 @@
 import React from 'react';
+import { ReactComponent as Feature1Icon } from '../../icon/feature-1.svg';
+import { ReactComponent as Feature2Icon } from '../../icon/feature-2.svg';
+import { ReactComponent as Feature3Icon } from '../../icon/feature-3.svg';
+import { ReactComponent as Feature4Icon } from '../../icon/feature-4.svg';
 
 import './features.style.scss';
 
@@ -6,7 +10,7 @@ const Feature = () => (
   <section className="section-feature">
     <div className="feature-container">
       <div className="feature-container-box">
-        <ion-icon name="key-outline" size="large" color="blue"></ion-icon>
+        <Feature1Icon height="50" width="50" />
         <h3 className="heading-tertinary" style={{ margin: '1.5rem' }}>
           Data Consistency
         </h3>
@@ -17,7 +21,7 @@ const Feature = () => (
       </div>
 
       <div className="feature-container-box">
-        <ion-icon size="large" name="cloud-upload-outline"></ion-icon>
+        <Feature2Icon height="50" width="50" />
         <h3 className="heading-tertinary" style={{ margin: '1.5rem' }}>
           Data Migration
         </h3>
@@ -28,13 +32,9 @@ const Feature = () => (
       </div>
 
       <div className="feature-container-box">
-        <ion-icon
-          size="large"
-          name="folder-outline"
-          className="icon"
-        ></ion-icon>
+        <Feature3Icon height="50" width="50" />
         <h3 className="heading-tertinary" style={{ margin: '1.5rem' }}>
-          Data organzation management
+          Data Management
         </h3>
         <p className="paragraph">
           Organize the data in user and system files and volumes for both SAN
@@ -43,13 +43,9 @@ const Feature = () => (
       </div>
 
       <div className="feature-container-box">
-        <ion-icon
-          size="large"
-          name="construct-outline"
-          className="icon"
-        ></ion-icon>
+        <Feature4Icon height="50" width="50" />
         <h3 className="heading-tertinary" style={{ margin: '1.5rem' }}>
-          Data Protection Capabilities
+          Data Protection
         </h3>
         <p className="paragraph">
           Provides a wide range of data protection using techonology such as
