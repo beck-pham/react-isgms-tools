@@ -46,7 +46,7 @@ const ToolKit = () => (
         </header>
 
         <div className="card-author">
-          <a className="author-avatar" href="#section-toolkit">
+          <a className="author-avatar" href="/tool/iticket">
             <ITicketIcon height="50" width="50" />
           </a>
 

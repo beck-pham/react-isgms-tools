@@ -6,9 +6,10 @@
 }
 
 .timeseries-container {
+  background: var(--bg);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   height: 40vh;
-  padding-top: 5rem;
+  padding: 5rem;
 }

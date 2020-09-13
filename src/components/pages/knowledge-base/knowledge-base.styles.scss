@@ -1,21 +1,9 @@
 @import '../../../../public/sass/variable';
 
-// .knowledge-base {
-//   font-size: 1.4rem;
-//   height: 7rem;
-//   background-color: white;
-//   border-bottom: 1px solid $color-grey-light-2;
-
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
-
 .kb-bg {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-image: url(../../img/knowledgebase-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -26,24 +14,29 @@
   justify-content: center;
   height: 60vh;
   padding-top: 7rem;
+  background: var(--bg);
 }
 
 .kb-card-heading {
+  padding-top: 3rem;
   margin-bottom: 2rem;
   font-size: 2rem;
   text-transform: uppercase;
-  color: black;
+  color: white;
+
+  &:hover {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 
 .kb-card-paragraph {
   margin-bottom: 5rem;
   font-size: 1.4rem;
   text-transform: capitalize;
-}
-
-ion-icon {
-  color: rgba(22, 22, 22, 0.9);
-  padding-bottom: 1rem;
 }
 
 /****** SEARCH ******/
@@ -103,7 +96,7 @@ ion-icon {
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
-    font-size: $default-font-size;
+    font-size: 1.3rem;
     color: white;
     font-weight: 600;
     //Change for the <button> element
@@ -188,8 +181,4 @@ ion-icon {
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
     transform: translateY(0);
   }
-}
-
-ion-icon {
-  font-size: 70px;
 }

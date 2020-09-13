@@ -2,10 +2,11 @@
 
 .nav-bar {
   height: var(--nav-size);
-  background-color: var(--bg);
+  background-color: #101010;
 }
 
 .nav-list {
+  text-transform: uppercase;
   height: 100%;
   width: 100%;
   list-style: none;

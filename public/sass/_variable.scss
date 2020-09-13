@@ -4,7 +4,7 @@
 // $color-primary-dark: #28b485;
 
 /*******BACKGROUND COLOR********/
-$color-primary-background: lighten(#19181a, 5%);
+// $color-primary-background: lighten(#19181a, 5%);
 
 $color-primary: #1976d2;
 $color-primary-light: #b3e5fc;
@@ -61,8 +61,13 @@ $color-font-1: #d9b08c;
 //NAVBAR
 
 :root {
-  --bg: #242526;
-  // --bg-accent: white;
+  --bg: #101010;
+  --bg-secondary: linear-gradient(
+    to right bottom,
+    rgba(#03a9f4, 0.6),
+    rgba(#2979ff, 0.6)
+  );
+  --bg-accent: #242526;
   --text-color: #dadce1;
   --nav-size: 7rem;
   --border: 1px solid #474a4d;

@@ -1,13 +1,13 @@
 @import '../../../public/sass/variable';
 
-.btn {
+.btn-custom {
   /* Make both unvisited and visited remains same color*/
   &,
   &:link,
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 4rem;
+    padding: 1rem 3rem;
     display: inline-block;
     border-radius: 10rem;
     transition: all 0.2s;
@@ -58,7 +58,7 @@
     content: '';
     display: inline-block;
     height: 100%;
-    width: 100%;
+
     border-radius: 10rem;
     position: absolute;
     top: 0;
