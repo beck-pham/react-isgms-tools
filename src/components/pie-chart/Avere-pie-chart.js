@@ -29,6 +29,8 @@ class AverePieChart extends React.Component {
           height={400}
           data={this.state.data}
           options={{
+            maintainAspectRatio: false,
+
             title: {
               display: true,
               text: 'Avere',

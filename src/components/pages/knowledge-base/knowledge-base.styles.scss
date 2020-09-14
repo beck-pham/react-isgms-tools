@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
   padding-bottom: 1rem;
+  padding: 5rem;
 }
 .kb-card {
   display: flex;
@@ -39,6 +40,9 @@
   text-transform: capitalize;
 }
 
+.feature-container-box-kb {
+  box-shadow: var(--box-shadow);
+}
 /****** SEARCH ******/
 .search {
   &-input {

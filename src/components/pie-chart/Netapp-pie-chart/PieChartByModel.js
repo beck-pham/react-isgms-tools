@@ -55,6 +55,8 @@ class PieChartByModel extends React.Component {
           height={400}
           data={this.state.data}
           options={{
+            maintainAspectRatio: false,
+
             title: {
               display: true,
               text: 'Netapp Filers By System Model',

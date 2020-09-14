@@ -8,10 +8,7 @@
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
-
-  &.large {
-    height: 340px;
-  }
+  box-shadow: var(--box-shadow);
 
   &:first-child {
     margin-right: 7.5px;

@@ -4,7 +4,7 @@ import './introduction.styles.scss';
 
 const Introduction = () => {
   return (
-    <div className="intro">
+    <section className="intro">
       <div className="intro-text-box">
         <h1 className="heading-primary">
           <span className="heading-primary-main">
@@ -15,7 +15,7 @@ const Introduction = () => {
           </span>
         </h1>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,20 +2,44 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 7rem;
+  background: var(--bg);
+  height: 40vh;
+  padding: 7rem 5rem 5rem 5rem;
 }
 
 .storage-equipment-bg {
   background-image: url(../../img/storage-equipment-bg.jpg);
   background-position: center;
   background-size: cover;
+  padding-top: 7rem;
 }
 
 .pie-chart-container {
-  display: flex;
-  min-height: 20rem;
+  //padding: 5rem 5rem 5rem 10rem;
+
+  padding: 5rem 5rem 5rem 18rem;
+  width: 99%;
+  display: grid;
+  grid-row-gap: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-template-areas:
+    'pie1 . pie2 . pie3'
+    '. pie4 . pie5 .';
 }
 
-.pie-chart-item {
-  flex: 1 1 auto;
+.pie1 {
+  grid-area: pie1;
+}
+.pie2 {
+  grid-area: pie2;
+}
+.pie3 {
+  grid-area: pie3;
+}
+.pie4 {
+  grid-area: pie4;
+}
+
+.pie5 {
+  grid-area: pie5;
 }

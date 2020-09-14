@@ -36,7 +36,7 @@ const KnowledgeBase = () => (
 
     <div className="kb-card">
       <div
-        className="feature-container-box"
+        className="feature-container-box feature-container-box-kb"
         style={{ flex: '0 0 25rem', margin: '0 2rem', height: '35rem' }}
       >
         <DocumentIcon height="50" width="50" />
@@ -53,7 +53,7 @@ const KnowledgeBase = () => (
       </div>
 
       <div
-        className="feature-container-box"
+        className="feature-container-box feature-container-box-kb"
         style={{ flex: '0 0 25rem', margin: '0 2rem', height: '35rem' }}
       >
         <BugIcon height="50" width="50" />
@@ -70,7 +70,7 @@ const KnowledgeBase = () => (
       </div>
 
       <div
-        className="feature-container-box"
+        className="feature-container-box feature-container-box-kb"
         style={{ flex: '0 0 25rem', margin: '0 2rem', height: '35rem' }}
       >
         <SupportIcon height="50" width="50" />

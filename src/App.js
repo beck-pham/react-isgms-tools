@@ -24,12 +24,13 @@ import NetappInventory from './components/pages/inventory/netapp-inventory/Netap
 import IsilonInventory from './components/pages/inventory/isilon-inventory/Isilon-inventory';
 import NavBar from './components/nav/NavBar';
 //import TimeSeries from './components/pages/timeseries/Timeseries';
+import TestPie from './components/piechartexample';
 
 const App = () => {
   return (
     <Switch>
       {/* */}
-      {/* <Route exact path="/test" component={iTicketForm} /> */}
+      <Route exact path="/test" component={TestPie} />
       <Route exact path="/test" component={NavBar} />
       <Route exact path="/" component={HomePage} />
       <Route exact path="/tool" name="tool" component={ToolPage} />
@@ -57,7 +58,7 @@ const App = () => {
       />
       <Route path="/tool/storage_equipment/avere" component={AvereEquipment} />
       <Route path="/tool/storage_equipment/mapr" component={MaprEquipment} />
-      <Route 
+      <Route
         path="/tool/storage_equipment/silverpeak"
         component={SilverPeakEquipment}
       />

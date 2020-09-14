@@ -31,11 +31,21 @@ class StorageEquipmentPage extends React.Component {
           />
         </div>
         <div className="pie-chart-container">
-          <PieChartByDC />
-          <PieChartByBU />
-          <PieChartByModel />
-          <IsilonPieChart />
-          <AverePieChart />
+          <div className="pie1">
+            <PieChartByBU />
+          </div>
+          <div className="pie2">
+            <PieChartByDC />
+          </div>
+          <div className="pie3">
+            <PieChartByModel />
+          </div>
+          <div className="pie4">
+            <IsilonPieChart />
+          </div>
+          <div className="pie5">
+            <AverePieChart />
+          </div>
         </div>
 
         <div className="storage-equipment-menu">
