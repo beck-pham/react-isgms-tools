@@ -5,7 +5,11 @@ import './footer.styles.scss';
 const Footer = () => (
   <footer className="footer">
     <div className="footer-logo-box">
-      <img src="/img/logo-footer.png" alt="Full logo" className="footer-logo" />
+      <img
+        src={require('../img/logo.jpg')}
+        alt="Full logo"
+        className="footer-logo"
+      />
     </div>
 
     <div className="footer-container">

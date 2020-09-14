@@ -4,6 +4,10 @@
   background-color: #101010;
 }
 
+.section-directory::before {
+  border-top: 5px solid red;
+}
+
 .directory {
   // padding: 25rem 0 15rem 0;
   // margin-top: -13.5rem;

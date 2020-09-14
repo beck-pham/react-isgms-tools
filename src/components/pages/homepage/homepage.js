@@ -15,9 +15,12 @@ const HomePage = () => (
   <div className="homepage">
     <NavBar />
     <Introduction />
-    <About />
-    <Feature />
     <ToolKit />
+    {/* <About /> */}
+    <Feature />
+    <About />
+    {/* <ToolKit /> */}
+    {/* <Feature /> */}
     <Directory />
     <Footer />
   </div>

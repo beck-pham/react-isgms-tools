@@ -32,9 +32,9 @@ const About = () => (
           Our Slack/Jabber chatroom: isgms
         </p>
 
-        <a href="#section-about" className="btn-text">
+        {/* <a href="#section-about" className="btn-text">
           Learn more &rarr;
-        </a>
+        </a> */}
       </div>
 
       <div className="composition">

@@ -1,8 +1,23 @@
 @import '../../../public/sass/variable';
+@import '../nav-item//navitem.styles.scss';
 
 .nav-bar {
   height: var(--nav-size);
-  background-color: #101010;
+  background-color: var(--bg);
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+}
+
+.nav-bar.scroll {
+  height: var(--nav-size);
+  //background-color: lighten(#2979ff, 5%);
+  background-color: #03a9f4;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
 }
 
 .nav-list {
@@ -12,4 +27,16 @@
   list-style: none;
   display: flex;
   justify-content: flex-end;
+}
+
+.intro-logo-box {
+  position: fixed;
+  top: 0rem;
+  left: 2rem;
+  z-index: 60;
+}
+
+.intro-logo {
+  height: 7rem;
+  width: 7rem;
 }
