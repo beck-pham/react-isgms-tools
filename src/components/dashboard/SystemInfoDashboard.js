@@ -3,7 +3,7 @@ import DashboardItem from '../dashboard-item/Dashboard-item';
 
 import './dashboard.styles.scss';
 
-class SystemDashboard extends React.Component {
+class SystemInfoDashboard extends React.Component {
   constructor(props) {
     super(props);
 
@@ -24,7 +24,7 @@ class SystemDashboard extends React.Component {
           id: 2,
           title: 'Total Filers',
           subtitle: '7% from last month',
-          end: 557,
+          end: 690,
           duration: 2.75
         },
         {
@@ -73,13 +73,16 @@ class SystemDashboard extends React.Component {
 
   render() {
     return (
-      <div className="dashboard-container">
-        {this.state.items.map(({ id, ...otherProps }) => (
-          <DashboardItem key={id} {...otherProps} />
-        ))}
+      <div className="storage-equipment-dashboard" style={{ width: '100%' }}>
+        <h3 className="dashboard-heading">Data Information Metric Overview</h3>
+        <div className="dashboard-container">
+          {this.state.items.map(({ id, ...otherProps }) => (
+            <DashboardItem key={id} {...otherProps} />
+          ))}
+        </div>
       </div>
     );
   }
 }
 
-export default SystemDashboard;
+export default SystemInfoDashboard;

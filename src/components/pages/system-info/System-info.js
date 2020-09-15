@@ -5,7 +5,7 @@ import NavBar from '../../nav/NavBar';
 import Footer from '../../footer/Footer';
 import ReactTable from '../../react-table/React-table';
 
-import SystemDashboard from '../../dashboard/SystemDashboard';
+import SystemInfoDashboard from '../../dashboard/SystemInfoDashboard';
 
 import { columns, data } from './system-info.data';
 
@@ -20,13 +20,20 @@ const SystemInfo = () => (
         subtitle="Storage Dashboard for Infrastructure Storage System Team"
       />
     </div>
-    <div style={{ padding: '5rem 1rem' }}>
-      <SystemDashboard />
+    <div
+      style={{
+        padding: '3rem',
+        backgroundColor: 'rgba(236,239, 241, 0.7)'
+      }}
+    >
+      <SystemInfoDashboard />
     </div>
     <div className="system-info-table">
+      <h3 className="dashboard-heading" style={{ paddingBottom: '3rem' }}>
+        System Info Table
+      </h3>
       <ReactTable data={data} columns={columns} />
     </div>
-
     <Footer />
   </div>
 );

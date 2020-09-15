@@ -15,16 +15,16 @@
 }
 
 .pie-chart-container {
-  //padding: 5rem 5rem 5rem 10rem;
-
-  padding: 5rem 5rem 5rem 18rem;
-  width: 99%;
+  padding: 3rem;
+  padding: 5rem;
+  margin: 0 14rem;
+  width: 90%;
   display: grid;
   grid-row-gap: 5rem;
   grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
   grid-template-areas:
     'pie1 . pie2 . pie3'
-    '. pie4 . pie5 .';
+    'pie4 . pie5 . pie6';
 }
 
 .pie1 {
@@ -39,7 +39,9 @@
 .pie4 {
   grid-area: pie4;
 }
-
 .pie5 {
   grid-area: pie5;
+}
+.pie6 {
+  grid-area: pie6;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Doughnut } from 'react-chartjs-2';
+import { Pie } from 'react-chartjs-2';
 
 import './outerLabels';
 import 'chartjs-plugin-datalabels';
@@ -8,7 +8,6 @@ class AverePieChart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      type: 'doughnut',
       data: {
         labels: ['AMP'],
         datasets: [
@@ -24,7 +23,7 @@ class AverePieChart extends React.Component {
   render() {
     return (
       <div className="pie-chart">
-        <Doughnut
+        <Pie
           width={400}
           height={400}
           data={this.state.data}
@@ -58,13 +57,7 @@ class AverePieChart extends React.Component {
             plugins: {
               datalabels: false
             },
-            cutoutPercentage: 70,
-            responsive: true,
-            elements: {
-              arc: {
-                borderWidth: 5
-              }
-            }
+            cutoutPercentage: 0
           }}
         />
       </div>

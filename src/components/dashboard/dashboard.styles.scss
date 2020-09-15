@@ -1,14 +1,13 @@
-@import '../../../public//sass/variable';
+@import '../../../public/sass/variable';
 
 .dashboard-container {
   // background-color: white;
-  padding: 1rem;
+  padding: 5rem;
   display: flex;
   justify-content: center;
   margin-bottom: -1rem;
 
   &-item {
-    //background-color: #ffc107;
     padding: 4rem;
     margin: 1rem;
     // width: 15rem;
@@ -23,8 +22,8 @@
     border-top: none;
     border-bottom: none;
     border-left: none;
-    border-radius: 5px;
-    box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
+    border-radius: 1rem;
+    box-shadow: 0 1.5rem 4rem rgba(black, 0.5);
     transition: transform 0.2s;
 
     &:hover {
@@ -42,6 +41,8 @@
   top: 0;
   left: 0;
   padding: 1rem;
+  font-weight: 500;
+  text-align: center;
 }
 
 .markup-footer {
@@ -52,6 +53,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  font-weight: 500;
+  text-align: center;
 }
 
 .count-up {
@@ -72,4 +75,11 @@
       opacity: 1;
     }
   }
+}
+
+.dashboard-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: capitalize;
 }

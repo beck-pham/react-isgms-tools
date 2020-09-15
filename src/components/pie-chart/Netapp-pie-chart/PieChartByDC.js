@@ -1,5 +1,5 @@
 import React from 'react';
-import { Doughnut } from 'react-chartjs-2';
+import Pie from 'react-chartjs-2';
 import 'chartjs-plugin-datalabels';
 import 'chart.js';
 
@@ -7,7 +7,7 @@ class PieChartByDC extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      type: 'doughnut',
+      type: 'pie',
       data: {
         labels: ['NK', 'MR', 'ST', 'MS', 'PV'],
         datasets: [
@@ -29,7 +29,7 @@ class PieChartByDC extends React.Component {
   render() {
     return (
       <div className="pie-chart">
-        <Doughnut
+        <Pie
           width={400}
           height={400}
           data={this.state.data}
@@ -63,13 +63,7 @@ class PieChartByDC extends React.Component {
             plugins: {
               datalabels: false
             },
-            cutoutPercentage: 70,
-            responsive: true,
-            elements: {
-              arc: {
-                borderWidth: 5
-              }
-            }
+            cutoutPercentage: 0
           }}
         />
       </div>

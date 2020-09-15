@@ -11,6 +11,8 @@ import MENU_ITEM_DATA from '../../menu-item/menu-item.data';
 import './storage-equipment.styles.scss';
 import IsilonPieChart from '../../pie-chart/Isilon-pie-chart';
 import AverePieChart from '../../pie-chart/Avere-pie-chart';
+import MaprPieChart from '../../pie-chart/Mapr-pie-chart';
+import StorageEquipmentDashboard from '../../dashboard/StorageEquipmentDashboard';
 class StorageEquipmentPage extends React.Component {
   constructor(props) {
     super(props);
@@ -26,10 +28,19 @@ class StorageEquipmentPage extends React.Component {
         <NavBar />
         <div className="storage-equipment-bg">
           <Title
-            title="Storage Assets"
-            subtitle="Storages Managed by Infrastructure Services Storage Team"
+            title="Storage Equipment"
+            subtitle="Storage Assets Managed by Infrastructure Services Storage Team"
           />
         </div>
+        <div
+          style={{
+            padding: '3rem',
+            backgroundColor: 'rgba(236,239, 241, 0.7)'
+          }}
+        >
+          <StorageEquipmentDashboard />;
+        </div>
+
         <div className="pie-chart-container">
           <div className="pie1">
             <PieChartByBU />
@@ -45,6 +56,9 @@ class StorageEquipmentPage extends React.Component {
           </div>
           <div className="pie5">
             <AverePieChart />
+          </div>
+          <div className="pie6">
+            <MaprPieChart />
           </div>
         </div>
 

@@ -98,6 +98,19 @@
   }
 }
 
+.btn-search {
+  border: none;
+  background-color: none;
+  border-radius: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
 .toolkit-button {
   grid-column-start: 2;
 }

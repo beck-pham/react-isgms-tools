@@ -4,23 +4,17 @@ import Pie from 'react-chartjs-2';
 import './outerLabels';
 import 'chartjs-plugin-datalabels';
 
-class IsilonPieChart extends React.Component {
+class MaprPieChart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       type: 'pie',
       data: {
-        labels: ['DSCE', 'AMP', 'Game Center', 'DMZ', 'QA'],
+        labels: ['iCloud Mail'],
         datasets: [
           {
-            data: [48, 154, 36, 60, 15],
-            backgroundColor: [
-              '#9575cd',
-              '#ffc107',
-              '#03a9f4',
-              '#b71c1c',
-              '#ff5252'
-            ]
+            data: [69],
+            backgroundColor: ['#03a9f4']
           }
         ]
       }
@@ -36,9 +30,10 @@ class IsilonPieChart extends React.Component {
           data={this.state.data}
           options={{
             maintainAspectRatio: false,
+
             title: {
               display: true,
-              text: 'Isilon',
+              text: 'MapR',
               position: 'top',
               fontSize: 20,
               fontColor: '#111',
@@ -71,4 +66,4 @@ class IsilonPieChart extends React.Component {
   }
 }
 
-export default IsilonPieChart;
+export default MaprPieChart;

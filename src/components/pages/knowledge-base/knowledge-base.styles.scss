@@ -41,7 +41,7 @@
 }
 
 .feature-container-box-kb {
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-light);
 }
 /****** SEARCH ******/
 .search {
@@ -77,6 +77,8 @@
     border: none;
     background-color: $color-grey-light-1;
     border-radius: 100%;
+    vertical-align: center;
+    padding: 5px;
 
     &:focus {
       outline: none;

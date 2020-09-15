@@ -1,9 +1,8 @@
 import React from 'react';
 import DashboardItem from '../dashboard-item/Dashboard-item';
-import DashboardModal from '../button/modal/DashboardModal';
 import './dashboard.styles.scss';
 
-class ITicketDashboard extends React.Component {
+class StorageEquipmentDashboard extends React.Component {
   constructor(props) {
     super(props);
 
@@ -11,44 +10,50 @@ class ITicketDashboard extends React.Component {
       items: [
         {
           id: 1,
-          title: 'Total Non-Disk Tickets',
+          title: 'Total Netapp Filers',
           subtitle: '4% from last month',
-          end: 333,
+          start: 0,
+          end: 690,
           duration: 2.75
         },
         {
           id: 2,
-          title: 'Total NetApp Failed Disks',
+          title: 'Total Isilon Systems',
           subtitle: '7% from last month',
-          end: 2828,
+          start: 0,
+          end: 313,
           duration: 2.75
         },
         {
           id: 3,
-          title: 'Total Isilon Failed Disks',
+          title: 'Total Avere Systems',
           subtitle: '5% from last month',
-          end: 254,
+          start: 0,
+          end: 170,
           duration: 2.75
         },
         {
           id: 4,
-          title: 'Total Mapr Failed Disks',
+          title: 'Total Mapr Systems',
           subtitle: '12% from last month',
-          end: 147,
+          start: 0,
+          end: 69,
           duration: 2.75
         },
         {
           id: 5,
-          title: 'Total Open Tickets',
+          title: 'Total MailPods',
           subtitle: '1% from last month',
-          end: 48,
+          start: 0,
+          end: 666,
           duration: 2.75
         },
         {
           id: 6,
-          title: 'Total Closed Tickets',
+          title: 'Total Q&A Assets',
           subtitle: '2% from last month',
-          end: 2090,
+          start: 0,
+          end: 75,
           duration: 2.75
         }
       ]
@@ -57,19 +62,18 @@ class ITicketDashboard extends React.Component {
 
   render() {
     return (
-      <div className="iticket-dashboard">
-        <h3 className="iticket-heading">
-          Break-fix Tickets for The Last 6 months
+      <div className="storage-equipment-dashboard" style={{ width: '100%' }}>
+        <h3 className="dashboard-heading">
+          Production Storage Systems Overview
         </h3>
         <div className="dashboard-container">
           {this.state.items.map(({ id, ...otherProps }) => (
             <DashboardItem key={id} {...otherProps} />
           ))}
         </div>
-        <DashboardModal />
       </div>
     );
   }
 }
 
-export default ITicketDashboard;
+export default StorageEquipmentDashboard;

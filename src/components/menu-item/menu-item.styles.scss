@@ -1,14 +1,15 @@
 .menu-item {
-  max-width: 30%;
+  max-width: 20%;
   height: 20rem;
   flex: 1 1 20rem;
+  border-radius: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-light);
 
   &:first-child {
     margin-right: 7.5px;
@@ -53,6 +54,10 @@
       margin-bottom: 6px;
       font-size: 22px;
       color: #4a4a4a;
+
+      &:first-child {
+        font-size: 1.5rem;
+      }
     }
 
     .subtitle {

@@ -1,4 +1,6 @@
 import React from 'react';
+import { ReactComponent as MonitorIcon } from '../../icon/monitor.svg';
+import { ReactComponent as UpArrowIcon } from '../../icon/up_arrow.svg';
 import CountUp from 'react-countup';
 
 import './dashboard-item.styles.scss';
@@ -13,10 +15,10 @@ const DashboardItem = ({
   decimal,
   suffix
 }) => (
-  <div className="dashboard-container">
+  <div>
     <div className="dashboard-container-item">
       <div className="markup-header">
-        <ion-icon name="desktop-outline" size="small"></ion-icon>
+        <MonitorIcon height={30} width={30} style={{ marginRight: '5px' }} />
         <span className="markup-span">{title}</span>
       </div>
       <div className="count-up">
@@ -30,7 +32,7 @@ const DashboardItem = ({
         />
       </div>
       <div className="markup-footer">
-        <ion-icon name="arrow-up-outline" size="small" color="green"></ion-icon>
+        <UpArrowIcon height={30} width={30} style={{ marginRight: '5px' }} />
         <span className="markup-span">{subtitle}</span>
       </div>
     </div>

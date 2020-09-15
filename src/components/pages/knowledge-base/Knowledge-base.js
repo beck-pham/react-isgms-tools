@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as DocumentIcon } from '../../../icon/doc.svg';
 import { ReactComponent as BugIcon } from '../../../icon/bug.svg';
 import { ReactComponent as SupportIcon } from '../../../icon/support.svg';
+import { ReactComponent as SearchIcon } from '../../../icon/search.svg';
 import CustomButton from '../../button/Custom-button';
 import Title from '../../title/Title';
 import NavBar from '../../nav/NavBar';
@@ -24,13 +25,14 @@ const KnowledgeBase = () => (
           className="search-input"
           placeholder="Search a bug"
         />
-        <CustomButton className="search-CustomButton">
-          <ion-icon
-            style={{ verticalAlign: 'middle' }}
-            name="search-outline"
-            size="small"
-          ></ion-icon>
-        </CustomButton>
+        <button className="search-button">
+          <SearchIcon
+            width={32}
+            height={32}
+            style={{ verticalAlign: 'center' }}
+          />
+        </button>
+        {/* <CustomButton className="search-button">Search</CustomButton> */}
       </form>
     </div>
 

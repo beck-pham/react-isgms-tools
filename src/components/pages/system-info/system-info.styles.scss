@@ -2,11 +2,20 @@
   background-image: url(../../img/system-info-bg.jpg);
   background-size: cover;
   background-position: 25% 25%;
-  padding-bottom: 5rem;
+  padding: 5rem;
   background-color: white;
 }
 
 .system-info-table {
-  height: 60vh;
-  width: 40%;
+  height: 80vh;
+  width: 100%;
+  padding: 5rem;
 }
+
+// .system-info-table h3:hover {
+//   background: linear-gradient(90deg, #ff8a00, #e52e71);
+//   text-shadow: none;
+//   -webkit-text-fill-color: transparent;
+//   -webkit-background-clip: text;
+//   background-clip: text;
+// }

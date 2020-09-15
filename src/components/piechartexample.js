@@ -1,5 +1,5 @@
 import React from 'react';
-import { Doughnut } from 'react-chartjs-2';
+import Pie from 'react-chartjs-2';
 import './piechartexample.styles.scss';
 
 const data = {
@@ -33,7 +33,7 @@ class Testbox extends React.Component {
     return (
       <div className="container">
         <div className="box1">
-          <Doughnut
+          <Pie
             data={data}
             height={600}
             width={600}
@@ -41,7 +41,7 @@ class Testbox extends React.Component {
           />
         </div>
         <div className="box2">
-          <Doughnut
+          <Pie
             data={data}
             height={600}
             width={600}
@@ -49,7 +49,7 @@ class Testbox extends React.Component {
           />
         </div>
         <div className="box3">
-          <Doughnut
+          <Pie
             data={data}
             height={600}
             width={600}
@@ -57,7 +57,7 @@ class Testbox extends React.Component {
           />
         </div>
         <div className="box4">
-          <Doughnut
+          <Pie
             data={data}
             height={600}
             width={600}
@@ -65,7 +65,7 @@ class Testbox extends React.Component {
           />
         </div>
         <div className="box5">
-          <Doughnut
+          <Pie
             data={data}
             height={600}
             width={600}
