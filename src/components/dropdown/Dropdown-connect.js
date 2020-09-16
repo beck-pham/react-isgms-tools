@@ -24,7 +24,8 @@ function DropdownConnect() {
       <a
         href="#"
         className="dropdown-item"
-        onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
+        //onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
+        onClick={() => setActiveMenu}
       >
         <span className="icon-button">{props.leftIcon}</span>
         {props.children}

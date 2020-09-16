@@ -20,13 +20,9 @@ class Inventory extends React.Component {
       <div>
         <NavBar />
         <div className="inventory-bg">
-          <Title
-            title="Inventory"
-            subtitle="ISGMS Spare Parts Inventory"
-            style={{ color: 'white' }}
-          />
+          <Title title="Inventory" subtitle="ISGMS Spare Parts Inventory" />
         </div>
-        <div style={{ height: '80vh', paddingTop: '2rem' }}>
+        <div>
           <div className="menu-container">
             {this.state.vendors.map(({ id, ...otherProps }) => (
               <MenuItem key={id} {...otherProps} />

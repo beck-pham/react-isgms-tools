@@ -29,7 +29,8 @@ function DropdownTool() {
       <a
         href="#"
         className="dropdown-item"
-        onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
+        onClick={() => setActiveMenu}
+        // onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
       >
         <span className="icon-button">{props.leftIcon}</span>
         {props.children}

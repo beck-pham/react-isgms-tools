@@ -22,7 +22,7 @@ export const columns = [
   },
   {
     Header: 'Model',
-    accessor: 'Model'
+    accessor: 'Model',
   },
   {
     Header: 'Version',

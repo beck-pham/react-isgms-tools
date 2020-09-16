@@ -29,7 +29,10 @@ const SystemInfo = () => (
       <SystemInfoDashboard />
     </div>
     <div className="system-info-table">
-      <h3 className="dashboard-heading" style={{ paddingBottom: '3rem' }}>
+      <h3
+        className="dashboard-heading"
+        style={{ paddingBottom: '3rem', color: 'whitesmoke' }}
+      >
         System Info Table
       </h3>
       <ReactTable data={data} columns={columns} />

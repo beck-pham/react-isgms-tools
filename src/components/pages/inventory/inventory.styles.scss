@@ -1,12 +1,17 @@
 .menu-container {
-  width: 100%;
+  background: var(--bg);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  height: 50vh;
+  padding: 10rem;
 }
 
 .inventory-bg {
   background-image: url(../../img/inventory.jpg);
   background-size: cover;
   background-position: center;
+  padding: 5rem;
+  color: white;
+  letter-spacing: 2px;
 }

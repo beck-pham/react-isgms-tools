@@ -5,6 +5,7 @@ table {
   font-size: 1.2rem;
   font-weight: 600;
   background-color: white;
+  display: inline-block;
 
   tr {
     :last-child {
@@ -19,6 +20,7 @@ table {
     color: white;
   }
 
+  th,
   td {
     margin: 0;
     padding: 0.5rem;
@@ -31,8 +33,24 @@ table {
     }
   }
 
+  .resizer {
+    display: inline-block;
+    background: blue;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(50%);
+    z-index: 1;
+    touch-action: none;
+
+    &.isResizing {
+      background: red;
+    }
+  }
+
   .pagination {
     padding: 0.5rem;
-    color: white;
   }
 }
