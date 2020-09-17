@@ -1,5 +1,12 @@
 import React from 'react';
-import { useTable, useSortBy, useFilters, usePagination } from 'react-table';
+import {
+  useTable,
+  useSortBy,
+  useFilters,
+  usePagination,
+  useBlockLayout,
+  useResizeColumns
+} from 'react-table';
 import { CustomInput } from './CustomInput';
 
 import './react-table.styles.scss';
@@ -78,6 +85,8 @@ const ReactTable = ({ columns, data }) => {
       filterTypes,
       initialState: { pageIndex: 0 }
     },
+    useBlockLayout,
+    useResizeColumns,
     useFilters, // hook for filetering
     useSortBy, // hook for sorting
     usePagination
@@ -109,6 +118,7 @@ const ReactTable = ({ columns, data }) => {
                   >
                     <div {...getHeaderProps(getSortByToggleProps())}>
                       {render('Header')}
+
                       <span>
                         {column.isSorted
                           ? column.isSortedDesc
@@ -116,6 +126,13 @@ const ReactTable = ({ columns, data }) => {
                             : ' 🔼'
                           : ''}
                       </span>
+
+                      <div
+                        {...column.getResizerProps()}
+                        className={`resizer ${
+                          column.isResizing ? 'isResizing' : ''
+                        }`}
+                      />
                     </div>
 
                     {/* Render the columns filter UI */}

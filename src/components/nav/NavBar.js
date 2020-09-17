@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import NavItem from '../nav-item/NavItem';
 import DropdownTool from '../dropdown/Dropdown-tool';
 import DropdownConnect from '../dropdown/Dropdown-connect';
@@ -32,7 +33,9 @@ const NavBar = () => {
       </div>
       <nav className={navbar ? 'nav-bar scroll' : 'nav-bar'}>
         <ul className="nav-list">
-          <NavItem icon={<HomeIcon />} title="Home"></NavItem>
+          <Link to="/">
+            <NavItem icon={<HomeIcon />} title="Home"></NavItem>
+          </Link>
           <NavItem icon={<ToolIcon />} title="Tools">
             <DropdownTool />
           </NavItem>

@@ -82,7 +82,10 @@ class Directory extends React.Component {
           ))}
         </div>
         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-          <a href="https://google.com" className="btn-text">
+          <a
+            href="https://istweb.apple.com/apple-directory"
+            className="btn-text"
+          >
             Apple Directory &rarr;
           </a>
         </div>

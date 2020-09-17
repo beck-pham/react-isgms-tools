@@ -9,10 +9,16 @@
   font-size: 14px;
   font-weight: 600;
   justify-items: center;
+  border-radius: 1rem;
 }
 
 .left-container {
-  background: $secondary-bg-color;
+  //background: $secondary-bg-color;
+  background: linear-gradient(
+    to right bottom,
+    rgba(#03a9f4, 0.6),
+    rgba(#2979ff, 0.6)
+  );
   overflow: hidden;
   padding: 40px 0 0 0;
   position: relative;

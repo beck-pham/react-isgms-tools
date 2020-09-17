@@ -22,7 +22,38 @@ const initialState = {
     escalate: '',
     warranty: '',
     issue: '',
-    description: ''
+    description: `========================================================================
+    ISSUE OVERVIEW      :    
+    CURRENT STATUS      :    
+    ACTION NEEDED       :    
+    NEXT STEPS          :    Escalate it back to ISG Mail Storage once done
+    INFORMATION         :    If you need further information, Please check with isgms\@group.apple.com
+    LOCATION INFORMATION
+    ========================================================================
+    
+     ++++++++++++++++++ iTrac information ++++++++++++++++++
+    Hostname: 
+    Hardware serial_number: 
+    Hardware asset_tag: 
+    Hardware rfid_tag: 
+    Hardware manufacture: 
+    Hardware asset_user: 
+    Hardware product_description: 
+    Hardware location_formatted: 
+    Hardware location_building: 
+    Hardware location_rack: 
+    
+    APPROVAL TO PROCEED REPAIR OR REPLACE PARTS: (YES/NO)
+    PXE BOOT/REKICK:*  (YES/NO)
+    SHUTDOWN/REBOOT:*  (YES/NO)
+    
+    OTHER
+    ESCALATE RESOLVED TICKET TO WORKGROUP:  ISG Mail Storage
+    JOIN THIS CHAT ROOM FOR ASSISTANCE: isgms\@muc.im.apple.com
+    RMA REQUIRED/TRACKING #: ????
+    REPLACEMENT PART # REQUIRED: ???
+    Disk sanitize if applicable: (YES/NO)
+    `
   },
 
   DCLocation: ['NK', 'ST', 'PV', 'MR', 'MS', 'VP2'],
@@ -314,9 +345,9 @@ export default class TicketForm extends React.Component {
               name={'description'}
               rows={10}
               cols={10}
+              width={20}
               value={this.state.newTicket.description}
               handleChange={this.handleTextArea}
-              placeholder={'iTicket template form'}
             ></TextArea>
           </div>
           <div className="button-div">
